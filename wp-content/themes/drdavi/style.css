@@ -12,10 +12,9 @@ Version: 1.0
 @import 'css/framework/icons/lineicons.css';
 @import 'css/framework/bootstrap.min.css';
 @import 'css/framework/animate.min.css';
-@import 'css/magnific-popup.css';
-/*@import 'css/framework/font-awesome.min.css';*/
 @import 'css/framework/owl.carousel.min.css';
 @import 'css/framework/swiper.min.css';
+@import 'css/magnific-popup.css';
 @import 'css/default.css';
 @import 'css/responsive.css';
 
