@@ -1,5 +1,5 @@
 <?php
-// Template Name: About
+// Template Name: Servicos
 get_header();
 ?>
 

@@ -1,5 +1,5 @@
 <?php
-// Template Name: Contact
+// Template Name: Sobre
 get_header();
 ?>
 

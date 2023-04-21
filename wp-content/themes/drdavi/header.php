@@ -1,3 +1,5 @@
+<?php $contact = get_page_by_title('contato') ?>
+
 <!DOCTYPE html>
 <html class="no-js" lang="ptBR">
 
@@ -10,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo get_template_directory_uri() ?>/img/favicon.png">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/style.css">
+
     <!-- Inicio Wordpress Head-->
     <?php wp_head(); ?>
     <!-- Fim Wordpress Head-->
@@ -34,7 +36,8 @@
                         <div class="head-img1">
                             <img src="<?php echo get_template_directory_uri() ?>/img/c-1.png" alt="">
                         </div>
-                        <span>4500 Davi Mercntile plaza,Suite 300, Fort Worth,TX,76137,USA</span>
+                        <span>
+                            <?php the_field('endereco', $contact) ?></span>
                     </div>
                 </div>
                 <div class="col-sm-6">
@@ -42,7 +45,7 @@
                         <div class="head-img">
                             <img src="<?php echo get_template_directory_uri() ?>/img/c-2.png" alt="">
                         </div>
-                        <span>+1(817) 901 3377, +1(817) *** 3377</span>
+                        <span><?php the_field('telefone', $contact) ?></span>
                     </div>
                 </div>
             </div>
@@ -51,34 +54,25 @@
     <header class="header-section">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="https://products.webrockmedia.com/dentallab-html/index.html"><img src="<?php echo get_template_directory_uri() ?>/img/logo.png" alt=""></a>
+                <a class="navbar-brand" href="/"><img src="<?php echo get_template_directory_uri() ?>/img/logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-toggle="modal" data-target="#myModal1" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a href="https://products.webrockmedia.com/dentallab-html/index.html"><span>Home</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="https://products.webrockmedia.com/dentallab-html/aboutus.html">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="https://products.webrockmedia.com/dentallab-html/services.html">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="https://products.webrockmedia.com/dentallab-html/departments.html">Departments</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="https://products.webrockmedia.com/dentallab-html/blog.html">Blogs</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="https://products.webrockmedia.com/dentallab-html/contactus.html">Contact Us</a>
-                        </li>
+                        <?php
+                        $args = array(
+                            'menu' => 'principal',
+                            'theme_location' => 'menu_principal',
+                            'container' => false
+                        );
+                        wp_nav_menu($args);
+                        ?>
                     </ul>
+
                 </div>
             </nav>
         </div>
     </header>
 
-    <?php include(TEMPLATEPATH . '/inc/carousel-banner.php') ?>

@@ -1,12 +1,29 @@
 <?php
 
-function register_css()
+add_action('wp_enqueue_scripts', 'register_code');
+
+function register_code()
 {
+    // Enqueue Stylesheets
     wp_register_style('register-style', get_stylesheet_uri());
     wp_enqueue_style('register-style');
-}
 
-add_action('wp_enqueue_scripts', 'register_css');
+
+    // Enqueue my scripts.
+    wp_enqueue_script('bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js', array(), null, true);
+
+    wp_enqueue_script('isotope', get_template_directory_uri() . '/js/isotope.pkgd.min.js', array(), null, true);
+
+    wp_enqueue_script('jquery', get_template_directory_uri() . '/js/jquery-3.6.0.min.js', array(), null, true);
+
+    wp_enqueue_script('jquery-magnific', get_template_directory_uri() . '/js/jquery.magnific-popup.min.js', array(), null, true);
+
+    wp_enqueue_script('main', get_template_directory_uri() . '/js/main.js', array(), null, true);
+
+    wp_enqueue_script('owl', get_template_directory_uri() . '/js/owl.carousel.min.js', array(), null, true);
+
+    wp_enqueue_script('swiper', get_template_directory_uri() . '/js/swiper.min.js', array(), null, true);
+}
 
 
 // Funçoes para Limpar o Header
@@ -27,6 +44,10 @@ add_theme_support('menus');
 // Registrar Menu
 function register_my_menu()
 {
-    register_nav_menu('menu-principal', __('Menu Principal'));
+    register_nav_menus(array(
+        'menu_principal' => __('Menu Principal'),
+        'informacao'  => __('Informação'),
+        'suporte'  => __('Suporte')
+    ));
 }
 add_action('init', 'register_my_menu');
