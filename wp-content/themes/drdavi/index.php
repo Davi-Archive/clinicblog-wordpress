@@ -10,7 +10,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo get_template_directory_uri() ?>/img/favicon.png">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/framework/fontawesome.min.css">
+
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/framework/icons/lineicons.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/framework/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/framework/animate.min.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/magnific-popup.css">
@@ -98,7 +99,7 @@
                                 <h5>We Work To Take Care Of Your Teath</h5>
                                 <h1>True DentalLab <br> For Your Family </h1>
                                 <a href="https://products.webrockmedia.com/dentallab-html/index.html#" class="btnn">
-                                    Explore All <i class="fa fa-arrow-right"></i>
+                                    Explore All <i class="lni lni-arrow-right"></i>
                                 </a>
                             </div>
                         </div>
@@ -111,7 +112,8 @@
                                 <h5>We Work To Take Care Of Your Teath</h5>
                                 <h1>True DentalLab <br>For Your Family </h1>
                                 <a href="https://products.webrockmedia.com/dentallab-html/index.html#" class="btnn">
-                                    Explore All <i class="fa fa-arrow-right"></i>
+                                    Explore All
+                                    <i class="lni lni-arrow-right"></i>
                                 </a>
                             </div>
                         </div>
@@ -148,13 +150,13 @@
                     <div class="contact-details">
                         <h2>CONTACT DETAILS</h2>
                         <ul class="contact">
-                            <li><span><i class="fa fa-map-marker"></i></span>4500 Mercntile plaza,Suite 300, Fort Worth,TX,76137,USA</li>
-                            <li><span><i class="fa fa-phone"></i></span>
+                            <li><span><i class="lni lni-map-marker"></i></span>4500 Mercntile plaza,Suite 300, Fort Worth,TX,76137,USA</li>
+                            <li><span><i class="lni lni-phone"></i></span>
                                 +1(817) 901 3377<br>
                                 +1(817) *** 3377
                             </li>
                         </ul>
-                        <a href="https://products.webrockmedia.com/dentallab-html/index.html#">GET DIRECTION ON THE MAP<i class="fa fa-arrow-right"></i></a>
+                        <a href="https://products.webrockmedia.com/dentallab-html/index.html#">GET DIRECTION ON THE MAP <i class="lni lni-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-sm-4 pd-0">
@@ -164,7 +166,7 @@
                             <img src="<?php echo get_template_directory_uri() ?>/img/clock.png" alt="">
                             <span>CHOOSE THE RIGHT TIME AND DATE FOR YOU </span>
                         </div>
-                        <a href="https://products.webrockmedia.com/dentallab-html/index.html#">MAKE AN APPOINTMENT<i class="fa fa-arrow-right"></i></a>
+                        <a href="https://products.webrockmedia.com/dentallab-html/index.html#">MAKE AN APPOINTMENT <i class="lni lni-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -776,7 +778,7 @@
         </div>
     </div>
 
-    <script src="<?php echo get_template_directory_uri() ?>/js/jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="<?php echo get_template_directory_uri() ?>/js/jquery-3.6.4.min.js" type="text/javascript"></script>
     <script src="<?php echo get_template_directory_uri() ?>/js/bootstrap.min.js" type="text/javascript"></script>
     <script src="<?php echo get_template_directory_uri() ?>/js/isotope.pkgd.min.js" type="text/javascript"></script>
     <script src="<?php echo get_template_directory_uri() ?>/js/jquery.magnific-popup.min.js" type="text/javascript"></script>
