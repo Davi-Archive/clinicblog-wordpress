@@ -10,15 +10,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo get_template_directory_uri() ?>/img/favicon.png">
-
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/framework/icons/lineicons.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/framework/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/framework/animate.min.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/magnific-popup.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/framework/font-awesome.min.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/framework/owl.carousel.min.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/framework/swiper.min.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/default.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/style.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/responsive.css">
 </head>
@@ -41,7 +32,7 @@
                         <div class="head-img1">
                             <img src="<?php echo get_template_directory_uri() ?>/img/c-1.png" alt="">
                         </div>
-                        <span>4500 Mercntile plaza,Suite 300, Fort Worth,TX,76137,USA</span>
+                        <span>4500 Davi Mercntile plaza,Suite 300, Fort Worth,TX,76137,USA</span>
                     </div>
                 </div>
                 <div class="col-sm-6">
@@ -778,7 +769,7 @@
         </div>
     </div>
 
-    <script src="<?php echo get_template_directory_uri() ?>/js/jquery-3.6.4.min.js" type="text/javascript"></script>
+    <script src="<?php echo get_template_directory_uri() ?>/js/jquery-3.6.0.min.js" type="text/javascript"></script>
     <script src="<?php echo get_template_directory_uri() ?>/js/bootstrap.min.js" type="text/javascript"></script>
     <script src="<?php echo get_template_directory_uri() ?>/js/isotope.pkgd.min.js" type="text/javascript"></script>
     <script src="<?php echo get_template_directory_uri() ?>/js/jquery.magnific-popup.min.js" type="text/javascript"></script>
@@ -786,7 +777,6 @@
     <script src="<?php echo get_template_directory_uri() ?>/js/swiper.min.js" type="text/javascript"></script>
     <script src="<?php echo get_template_directory_uri() ?>/js/main.js" type="text/javascript"></script>
 
-
 </body>
 
-</html>
+</html> 4500 Mercntile plaza,Suite 300, Fort Worth,TX,76137,USA 4500 Mercntile plaza,Suite 300, Fort Worth,TX,76137,USA
