@@ -1,0 +1,828 @@
+@media(max-width:1200px) {
+	.pd-0 h2 {
+		font-size: 20px
+	}
+
+	.about-text {
+		padding: 21px 0 0 50px
+	}
+
+	.nav-item {
+		padding: 0 12px;
+		font-size: 15px
+	}
+
+	.choose-us:before {
+		width: 50%
+	}
+
+	.footer-section {
+		overflow: hidden
+	}
+
+	.testing-text h4 {
+		font-size: 19px
+	}
+}
+
+@media(max-width:1440px) {
+	.why-chose-img {
+		background-image: url(../img/whay.png);
+		background-size: cover;
+		height: 100%
+	}
+
+	.why-chose-img img {
+		display: none
+	}
+}
+
+@media(min-width:1024px) and (max-width:1200px) {
+	.why-chose-img {
+		background-image: url(../img/whay.png);
+		background-size: cover;
+		height: 100%
+	}
+
+	.why-chose-img img {
+		display: none
+	}
+}
+
+@media(max-width:1024px) {
+	.why-chose-img {
+		background-image: url(../img/whay.png);
+		background-size: cover;
+		height: 100%
+	}
+
+	.why-chose-img img {
+		display: none
+	}
+
+	.footer-section {
+		overflow: hidden
+	}
+
+	.choose-us:before {
+		width: 50%
+	}
+
+	.nav-item {
+		padding: 0 12px;
+		font-size: 15px
+	}
+}
+
+@media(max-width:992px) {
+	.why-chose-img {
+		background-image: url(../img/whay.png);
+		background-size: cover;
+		height: 100%
+	}
+
+	.why-chose-img img {
+		display: none
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+	.why-chose-img {
+		background-image: url(../img/whay.png);
+		background-size: cover;
+		height: 100%
+	}
+
+	.why-chose-img img {
+		display: none
+	}
+
+	.swiper-button-next {
+		top: 40%
+	}
+
+	.swiper-button-prev {
+		top: 40%
+	}
+
+	.content-slider {
+		color: #fff;
+		position: relative;
+		padding: 0 45px
+	}
+
+	.head-right {
+		float: left;
+		padding: 5px 0 0
+	}
+
+	.head-right span {
+		padding: 0 0 0;
+		color: #fff;
+		font-size: 12px
+	}
+
+	.contact-details a {
+		background-color: #000;
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		color: #fff;
+		text-decoration: none;
+		border-radius: 5px;
+		display: block;
+		font-size: 13px
+	}
+
+	.appointment a {
+		background-color: #5db417;
+		color: #fff;
+		text-decoration: none;
+		padding: 11px 2px;
+		border-radius: 5px;
+		display: block;
+		font-size: 11px;
+		text-align: center
+	}
+
+	.contact li {
+		list-style: none;
+		font-size: 12px;
+		margin-bottom: 9px;
+		line-height: 28px;
+		border-bottom: 1px solid #fff;
+		padding: 0 0 2px
+	}
+
+	.footer1:before {
+		content: "";
+		position: absolute;
+		background-image: url(../img/at.png);
+		width: 110px;
+		height: 110px;
+		background-size: cover;
+		top: 18px;
+		right: 1px
+	}
+
+	.pd-0 h2 {
+		font-size: 15px
+	}
+
+	.appointment {
+		padding: 25px 23px 16px;
+		background-color: #e5e5e5
+	}
+
+	.request {
+		padding: 28px 0 4px;
+		border-bottom: 1px solid #00000052;
+		margin: 0 0 83px
+	}
+
+	.dental-text p {
+		font-size: 14px
+	}
+
+	.request span {
+		padding: 0 5px 0 13px;
+		display: flex;
+		font-size: 13px
+	}
+
+	.copy_text {
+		width: 76%
+	}
+
+	.footer-us span {
+		padding: 0 2px 0 0
+	}
+
+	.testimonials-main:before {
+		content: "";
+		position: absolute;
+		width: 36%;
+		background-image: url(../img/test.png);
+		top: 3px;
+		bottom: 0;
+		background-repeat: no-repeat;
+		right: -4px
+	}
+
+	.emergency h2 {
+		padding-bottom: 10px;
+		font-size: 22px
+	}
+
+	.emergency p {
+		font-size: 12px
+	}
+
+	.why-chose-img img {
+		width: 100%;
+		height: 544px
+	}
+
+	.why-choose-text h4 {
+		color: #f9a626;
+		font-size: 16px
+	}
+
+	.why-choose-text h2 {
+		font-size: 20px
+	}
+
+	.why-choose {
+		color: #fff;
+		padding: 0 20px;
+		font-size: 13px
+	}
+
+	.why-choose-list li:before {
+		content: "";
+		position: absolute;
+		width: 17%;
+		top: -2px;
+		left: -9px;
+		bottom: 198px;
+		border: solid #f9a626;
+		height: 54px
+	}
+
+	.why-choose-list h5 {
+		font-size: 16px
+	}
+
+	.why-choose-list p {
+		display: flex;
+		margin: 0
+	}
+
+	.choose-us:before {
+		right: 0;
+		background-color: #0657a8;
+		content: "";
+		width: 50%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0
+	}
+
+	.testing-text {
+		margin-top: 35px;
+		display: inline-block
+	}
+
+	.about-text {
+		padding: 15px 10px 45px
+	}
+
+	.working {
+		list-style: none;
+		padding: 19px 16px 0 0;
+		margin: 0;
+		font-size: 11px
+	}
+
+	.work-img img {
+		width: 13%;
+		padding: 1px 7px 4px 4px
+	}
+
+	.contact {
+		padding: 12px 0 5px;
+		margin: 0
+	}
+
+	.contact-details {
+		padding: 25px 23px 18px;
+		background-color: #5db417;
+		color: #fff
+	}
+
+	.working-hours {
+		padding: 25px 15px 11px;
+		background-color: #e5e5e5
+	}
+
+	.home-icon img {
+		width: 7%
+	}
+
+	span.phone-service {
+		border: 2px solid #ffb739;
+		color: #ffb739;
+		font-size: 22px;
+		padding: 6px 40px;
+		position: relative
+	}
+
+	.dental-care .pt-90 {
+		padding: 23px 20px
+	}
+
+	.play-img {
+		background-color: #fff;
+		width: 15%;
+		border-radius: 3px;
+		margin-top: 0;
+		box-shadow: 0 3px 19px 8px #00000073
+	}
+
+	.department-text h4 {
+		font-size: 19px
+	}
+
+	.department-text {
+		display: block;
+		padding: 10px 0;
+		width: 75%;
+		float: left;
+		font-size: 13px
+	}
+
+	.exceptional-care p {
+		padding-right: 0
+	}
+
+	.exceptional-care h2 {
+		padding-bottom: 4px
+	}
+
+	.exceptional-care h4 {
+		font-size: 20px;
+		padding-bottom: 7px
+	}
+
+	.contact-text {
+		padding: 0 0 10px 20px;
+		font-size: 15px
+	}
+
+	.contact-text h5 {
+		font-size: 16px
+	}
+
+	.exceptional-care {
+		padding: 0
+	}
+}
+
+@media only screen and (min-width:375px) and (max-width:767px) {
+	.why-chose-img {
+		background-image: url(../img/whay.png);
+		background-size: cover;
+		height: 100%
+	}
+
+	.why-chose-img img {
+		display: none
+	}
+
+	.service-detail-slider .owl-nav {
+		float: right;
+		position: absolute;
+		right: 0;
+		top: -87px
+	}
+
+	.general-img1 {
+		margin-bottom: 20px
+	}
+
+	section.dental-care:before {
+		right: 0;
+		background-color: #0657a8;
+		content: "";
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0
+	}
+
+	.panel p {
+		background-color: #00000017;
+		padding: 10px 20px 0;
+		line-height: 30px;
+		font-size: 14px
+	}
+
+	.accordion {
+		background-color: #0657a8;
+		color: #fff;
+		cursor: pointer;
+		padding: 18px;
+		width: 100%;
+		border: none;
+		text-align: left;
+		outline: none;
+		font-size: 15px;
+		transition: .4s;
+		margin-top: 20px
+	}
+
+	.exceptional-care {
+		padding: 0
+	}
+
+	.play-img {
+		background-color: #fff;
+		width: 18%;
+		border-radius: 3px;
+		margin-top: 35px;
+		box-shadow: 0 3px 19px 8px #00000073;
+		margin-bottom: 20px
+	}
+
+	.service-dental-details.pt-60 h2 {
+		color: #fff;
+		font-size: 17px
+	}
+
+	.service-dental-details.pt-60 h5 {
+		color: #fff;
+		padding-bottom: 10px;
+		font-size: 13px
+	}
+
+	.home-icon img {
+		width: 15%
+	}
+
+	.testimonial-dental-slider .owl-nav img {
+		width: 68%;
+		padding: 5px 0
+	}
+
+	.footer1:before {
+		content: "";
+		position: absolute;
+		background-image: url(../img/at.png);
+		width: 150px;
+		height: 150px;
+		background-size: cover;
+		top: -32px;
+		right: 0
+	}
+
+	.copy_text {
+		width: 50%;
+		padding: 0 0 0 25px
+	}
+
+	.copy li {
+		list-style: none;
+		display: inline-block;
+		padding: 0 0 0 0
+	}
+
+	.head-right span {
+		padding: 9px 2px 0 0;
+		color: #fff;
+		font-size: 11px
+	}
+
+	.head-img img {
+		width: 20%;
+		padding: 0 24px 0 0
+	}
+
+	.navbar-light .navbar-brand {
+		color: rgba(0, 0, 0, .9);
+		width: 75%
+	}
+
+	.navbar-brand img {
+		width: 70%;
+		padding: 0
+	}
+
+	.content-slider h1 {
+		font-size: 40px;
+		padding: 0 0 35px
+	}
+
+	.content-slider {
+		color: #fff;
+		position: relative;
+		padding: 0 25px
+	}
+
+	.head-left {
+		float: left
+	}
+
+	.po-ab-se {
+		width: 100%;
+		display: inline-block;
+		margin: auto;
+		padding: 134px 8px
+	}
+
+	.contact-details a {
+		background-color: #000;
+		text-align: center;
+		width: 100%;
+		padding: 11px 40px;
+		color: #fff;
+		text-decoration: none;
+		border-radius: 5px;
+		display: block
+	}
+
+	.appointment a {
+		background-color: #5db417;
+		color: #fff;
+		text-decoration: none;
+		padding: 11px 60px;
+		border-radius: 5px;
+		display: block
+	}
+
+	.about-text {
+		padding: 0 0 47px
+	}
+
+	.service-slider .owl-nav img {
+		width: 71%;
+		padding: 5px 0
+	}
+
+	.choose-us:before {
+		right: 0;
+		background-color: #0657a8;
+		content: "";
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 5px
+	}
+
+	.why-choose {
+		color: #fff;
+		padding: 0
+	}
+
+	.why-choose-list li:before {
+		content: "";
+		position: absolute;
+		width: 15%;
+		top: -2px;
+		left: -8px;
+		bottom: 198px;
+		border: solid #f9a626;
+		height: 54px
+	}
+
+	.why-choose-list p {
+		display: flex
+	}
+
+	.why-chose-img img {
+		width: 100%;
+		height: 100%
+	}
+
+	.testimonials-main {
+		background-color: #00000017;
+		padding: 20px;
+		position: relative
+	}
+
+	.testimonials-main:before {
+		content: "";
+		position: absolute;
+		width: 37%;
+		background-image: url(../img/test.png);
+		top: 0;
+		bottom: 0;
+		background-repeat: no-repeat;
+		right: -7px
+	}
+
+	.testimonial-slider .owl-nav img {
+		width: 68%;
+		padding: 5px 0
+	}
+
+	.swiper-button-next {
+		top: 50%
+	}
+
+	.swiper-button-prev {
+		top: 50%
+	}
+
+	.service-implant1 {
+		border-left: 1px solid #0657a8;
+		padding: 0
+	}
+
+	.contact-form {
+		padding-top: 40px
+	}
+}
+
+@media only screen and (min-width:320px) and (max-width:374px) {
+	.why-chose-img {
+		background-image: url(../img/whay.png);
+		background-size: cover;
+		height: 100%
+	}
+
+	.why-chose-img img {
+		display: none
+	}
+
+	.footer1:before {
+		content: "";
+		position: absolute;
+		background-image: url(../img/at.png);
+		width: 140px;
+		height: 140px;
+		background-size: cover;
+		top: -23px;
+		right: 0
+	}
+
+	.contact-form {
+		padding-top: 20px
+	}
+
+	section.dental-care:before {
+		right: 0;
+		background-color: #0657a8;
+		content: "";
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0
+	}
+
+	.exceptional-care {
+		padding: 0
+	}
+
+	.play-img {
+		background-color: #fff;
+		width: 20%;
+		border-radius: 3px;
+		margin-top: 15px;
+		box-shadow: 0 3px 19px 8px #00000073;
+		margin-bottom: 20px
+	}
+
+	.testimonial-dental-slider .owl-nav img {
+		width: 68%;
+		padding: 5px 0
+	}
+
+	.service-implant {
+		border-left: 1px solid #0657a8;
+		padding: 0
+	}
+
+	.home-icon img {
+		width: 15%
+	}
+
+	.copy_text {
+		width: 50%;
+		padding: 0 0 0 25px
+	}
+
+	.copy ul {
+		margin: 0;
+		padding: 0
+	}
+
+	.copy {
+		color: #bbb5b5;
+		width: 100%;
+		display: flex;
+		padding: 0 3px 0 18px
+	}
+
+	.copy li {
+		list-style: none;
+		display: inline-block;
+		padding: 0
+	}
+
+	.head-right span {
+		padding: 9px 2px 0 0;
+		color: #fff;
+		font-size: 11px
+	}
+
+	.head-img img {
+		width: 25%;
+		padding: 0 20px 0 0
+	}
+
+	.navbar-light .navbar-brand {
+		color: rgba(0, 0, 0, .9);
+		width: 75%
+	}
+
+	.content-slider {
+		color: #fff;
+		position: relative;
+		padding: 0 26px
+	}
+
+	.content-slider h1 {
+		font-size: 41px;
+		padding: 0 0 35px
+	}
+
+	.contact-details a {
+		background-color: #000;
+		text-align: center;
+		width: 100%;
+		padding: 11px 32px 11px 35px;
+		color: #fff;
+		text-decoration: none;
+		border-radius: 5px;
+		display: block
+	}
+
+	.appointment a {
+		background-color: #5db417;
+		color: #fff;
+		text-decoration: none;
+		padding: 11px 50px;
+		border-radius: 5px;
+		display: block
+	}
+
+	.about-text {
+		padding: 0 0 40px
+	}
+
+	.service-slider .owl-nav img {
+		width: 71%;
+		padding: 5px 0
+	}
+
+	.why-choose {
+		color: #fff;
+		padding: 0 10px
+	}
+
+	.why-choose-list li:before {
+		content: "";
+		position: absolute;
+		width: 17%;
+		top: -2px;
+		left: -8px;
+		bottom: 198px;
+		border: solid #f9a626;
+		height: 54px
+	}
+
+	.choose-us:before {
+		right: 0;
+		background-color: #0657a8;
+		content: "";
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0
+	}
+
+	.why-choose-list p {
+		display: flex
+	}
+
+	.why-chose-img img {
+		width: 100%;
+		height: 100%
+	}
+
+	.testimonial-slider .owl-nav img {
+		width: 68%;
+		padding: 5px 0
+	}
+
+	.testimonials-main:before {
+		content: "";
+		position: absolute;
+		width: 36%;
+		background-image: url(../img/test.png);
+		top: 3px;
+		bottom: 0;
+		background-repeat: no-repeat;
+		right: 0
+	}
+
+	.testing-text {
+		margin-top: 30px;
+		display: inline-block
+	}
+}
