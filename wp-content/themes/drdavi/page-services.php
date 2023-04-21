@@ -1,5 +1,5 @@
 <?php
-// Template Name: Home
+// Template Name: Services
 get_header();
 ?>
 

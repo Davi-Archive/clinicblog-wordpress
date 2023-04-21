@@ -80,3 +80,5 @@
             </nav>
         </div>
     </header>
+
+    <?php include(TEMPLATEPATH . '/inc/carousel-banner.php') ?>
