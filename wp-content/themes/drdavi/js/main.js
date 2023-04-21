@@ -143,7 +143,7 @@
         autoplayHoverPause: false,
         margin: 25,
         responsiveClass: true,
-        navText: ["<img src='../img/left-arrow.png'/>", "<img src='../img/right-arrow.png'/>"],
+        navText: ["<div class='button-left-arrow'></div>", "<div class='button-right-arrow'></div>"],
         responsive: {
             0: {
                 items: 1,
@@ -171,7 +171,7 @@
         autoplayHoverPause: false,
         margin: 25,
         responsiveClass: true,
-        navText: ["<img src='../img/left-arrow.png'/>", "<img src='../img/right-arrow.png'/>"],
+        navText: ["<div class='button-left-arrow'></div>", "<div class='button-right-arrow'></div>"],
         responsive: {
             0: {
                 items: 1,
@@ -199,7 +199,7 @@
         autoplayHoverPause: false,
         margin: 25,
         responsiveClass: true,
-        navText: ["<img src='../img/left-arrow1.png'/>", "<img src='../img/right-arrow (1).png'/>"],
+        navText: ["<div class='button-left-arrow'></div>", "<div class='button-right-arrow'></div>"],
         responsive: {
             0: {
                 items: 1,
@@ -227,7 +227,7 @@
         autoplayHoverPause: false,
         margin: 25,
         responsiveClass: true,
-        navText: ["<img src='../img/left-arrow1.png'/>", "<img src='../img/right-arrow (1).png'/>"],
+        navText: ["<div class='button-left-arrow'></div>", "<div class='button-right-arrow'></div>"],
         responsive: {
             0: {
                 items: 1,
@@ -255,7 +255,7 @@
         autoplayHoverPause: false,
         margin: 25,
         responsiveClass: true,
-        navText: ["<img src='../img/left-arrow-small.png'/>", "<img src='../img/right-arrow-small.png'/>"],
+        navText: ["<div class='button-left-arrow'></div>", "<div class='button-right-arrow'></div>"],
         responsive: {
             0: {
                 items: 1,
@@ -283,7 +283,7 @@
         autoplayHoverPause: false,
         margin: 25,
         responsiveClass: true,
-        navText: ["<img src='../img/left-arrow-small.png'/>", "<img src='../img/right-arrow-small.png'/>"],
+        navText: ["<div class='button-left-arrow'></div>", "<div class='button-right-arrow'></div>"],
         responsive: {
             0: {
                 items: 1,

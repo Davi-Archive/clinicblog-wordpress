@@ -39,6 +39,21 @@ h4 {
     width: 1343px;
 }
 
+.button-left-arrow{
+    background-image: url('./img/left-arrow.png');
+    background-size: fill;
+    width: 65px !important;
+    height: 47.5px;
+    margin: 5px 10px 20px 10px;
+}
+.button-right-arrow{
+    background-image: url('./img/right-arrow.png');
+    background-size: fill;
+    width: 65px !important;
+    height: 47.5px;
+    margin: 5px 10px 20px 10px;
+}
+
 .wp-smart-loader {
 	text-indent: -12345px
 }

@@ -430,13 +430,13 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="owl-nav disabled">
+                            <!-- <div class="owl-nav disabled">
                                 <button type="button" role="presentation" class="owl-prev"><img src="<?php echo get_template_directory_uri() ?>/img/left-arrow.png">
                                 </button>
 
                                 <button type="button" role="presentation" class="owl-next"><img src="<?php echo get_template_directory_uri() ?>/img/right-arrow.png">
                                 </button>
-                            </div>
+                            </div> -->
                             <div class="owl-dots disabled"></div>
                         </div>
                     </div>
@@ -634,11 +634,11 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="owl-nav disabled">
+                            <!-- <div class="owl-nav disabled">
                                 <button type="button" role="presentation" class="owl-prev"><img src="<?php echo get_template_directory_uri() ?>/img/left-arrow.png"></button>
                                 <button type="button" role="presentation" class="owl-next">
                                     <img src="<?php echo get_template_directory_uri() ?>/img/right-arrow.png"></button>
-                            </div>
+                            </div> -->
                             <div class="owl-dots disabled"></div>
                         </div>
                     </div>
