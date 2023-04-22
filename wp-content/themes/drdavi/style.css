@@ -1617,7 +1617,14 @@ a.home-icon:hover {
 	padding: 20px
 }
 
+.tratamento-btn {
+	display: flex;
+	flex-direction: column;
+}
+
 .service-btn {
+	width: 100%;
+	text-align: center;
 	color: #000;
 	text-decoration: none
 }

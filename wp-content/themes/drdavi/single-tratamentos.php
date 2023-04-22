@@ -23,7 +23,7 @@ $contact = get_page_by_title('contato');
             <div class="col-sm-4">
                 <div class="recent-service pt-40">
                     <div class="service-dental">
-                        <img src="./Dental HTML Template_files/call.png" alt="">
+                        <img src="<?= get_template_directory_uri() ?>/img/call.png" alt="">
                     </div>
                     <h2>Tem alguma questão?
                         <span>converse com o doutor agora por whats app!</span>
@@ -78,13 +78,13 @@ $contact = get_page_by_title('contato');
                                     <div class="item">
                                         <div class="service-general">
                                             <div class="service-img">
-                                                <img src="./Dental HTML Template_files/sl-4.png" alt="">
+                                                <img src="<?= get_template_directory_uri() ?>/img/sl-4.png" alt="">
                                             </div>
                                             <div class="dental-text">
                                                 <h4> Alignment</h4>
                                                 <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
                                                 </p>
-                                                <a class="service-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><i class="fa fa-plus"></i></a>
+                                                <a class="service-btn tratamento-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><img class="image-read-more tratamento-btn" width="32" height="32" src="<?= get_template_directory_uri() ?>/img/icons/plus.svg" alt="Acessar" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -93,13 +93,13 @@ $contact = get_page_by_title('contato');
                                     <div class="item">
                                         <div class="service-general">
                                             <div class="service-img">
-                                                <img src="./Dental HTML Template_files/sl-5.png" alt="">
+                                                <img src="<?= get_template_directory_uri() ?>/img/sl-5.png" alt="">
                                             </div>
                                             <div class="dental-text">
                                                 <h4> Teeth Braces</h4>
                                                 <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
                                                 </p>
-                                                <a class="service-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><i class="fa fa-plus"></i></a>
+                                                <a class="service-btn tratamento-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><img class="image-read-more tratamento-btn" width="32" height="32" src="<?= get_template_directory_uri() ?>/img/icons/plus.svg" alt="Acessar" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -108,13 +108,13 @@ $contact = get_page_by_title('contato');
                                     <div class="item">
                                         <div class="service-general">
                                             <div class="service-img">
-                                                <img src="./Dental HTML Template_files/sl-6.png" alt="">
+                                                <img src="<?= get_template_directory_uri() ?>/img/sl-6.png" alt="">
                                             </div>
                                             <div class="dental-text">
                                                 <h4> Teeth Protection</h4>
                                                 <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
                                                 </p>
-                                                <a class="service-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><i class="fa fa-plus"></i></a>
+                                                <a class="service-btn tratamento-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><img class="image-read-more tratamento-btn" width="32" height="32" src="<?= get_template_directory_uri() ?>/img/icons/plus.svg" alt="Acessar" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -123,13 +123,13 @@ $contact = get_page_by_title('contato');
                                     <div class="item">
                                         <div class="service-general">
                                             <div class="service-img">
-                                                <img src="./Dental HTML Template_files/sl-1.png" alt="">
+                                                <img src="<?= get_template_directory_uri() ?>/img/sl-1.png" alt="">
                                             </div>
                                             <div class="dental-text">
                                                 <h4> Genera Dentistry</h4>
                                                 <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
                                                 </p>
-                                                <a class="service-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><i class="fa fa-plus"></i></a>
+                                                <a class="service-btn tratamento-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><img class="image-read-more tratamento-btn" width="32" height="32" src="<?= get_template_directory_uri() ?>/img/icons/plus.svg" alt="Acessar" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -138,13 +138,13 @@ $contact = get_page_by_title('contato');
                                     <div class="item">
                                         <div class="service-general">
                                             <div class="service-img">
-                                                <img src="./Dental HTML Template_files/sl-2.png" alt="">
+                                                <img src="<?= get_template_directory_uri() ?>/img/sl-2.png" alt="">
                                             </div>
                                             <div class="dental-text">
                                                 <h4> Implants</h4>
                                                 <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
                                                 </p>
-                                                <a class="service-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><i class="fa fa-plus"></i></a>
+                                                <a class="service-btn tratamento-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><img class="image-read-more tratamento-btn" width="32" height="32" src="<?= get_template_directory_uri() ?>/img/icons/plus.svg" alt="Acessar" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -153,13 +153,13 @@ $contact = get_page_by_title('contato');
                                     <div class="item">
                                         <div class="service-general">
                                             <div class="service-img">
-                                                <img src="./Dental HTML Template_files/sl-3.png" alt="">
+                                                <img src="<?= get_template_directory_uri() ?>/img/sl-3.png" alt="">
                                             </div>
                                             <div class="dental-text">
                                                 <h4> Dental Surgery</h4>
                                                 <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
                                                 </p>
-                                                <a class="service-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><i class="fa fa-plus"></i></a>
+                                                <a class="service-btn tratamento-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><img class="image-read-more tratamento-btn" width="32" height="32" src="<?= get_template_directory_uri() ?>/img/icons/plus.svg" alt="Acessar" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -168,13 +168,13 @@ $contact = get_page_by_title('contato');
                                     <div class="item">
                                         <div class="service-general">
                                             <div class="service-img">
-                                                <img src="./Dental HTML Template_files/sl-4.png" alt="">
+                                                <img src="<?= get_template_directory_uri() ?>/img/sl-4.png" alt="">
                                             </div>
                                             <div class="dental-text">
                                                 <h4> Alignment</h4>
                                                 <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
                                                 </p>
-                                                <a class="service-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><i class="fa fa-plus"></i></a>
+                                                <a class="service-btn tratamento-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><img class="image-read-more tratamento-btn" width="32" height="32" src="<?= get_template_directory_uri() ?>/img/icons/plus.svg" alt="Acessar" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -183,13 +183,13 @@ $contact = get_page_by_title('contato');
                                     <div class="item">
                                         <div class="service-general">
                                             <div class="service-img">
-                                                <img src="./Dental HTML Template_files/sl-5.png" alt="">
+                                                <img src="<?= get_template_directory_uri() ?>/img/sl-5.png" alt="">
                                             </div>
                                             <div class="dental-text">
                                                 <h4> Teeth Braces</h4>
                                                 <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
                                                 </p>
-                                                <a class="service-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><i class="fa fa-plus"></i></a>
+                                                <a class="service-btn tratamento-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><img class="image-read-more tratamento-btn" width="32" height="32" src="<?= get_template_directory_uri() ?>/img/icons/plus.svg" alt="Acessar" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -198,13 +198,13 @@ $contact = get_page_by_title('contato');
                                     <div class="item">
                                         <div class="service-general">
                                             <div class="service-img">
-                                                <img src="./Dental HTML Template_files/sl-6.png" alt="">
+                                                <img src="<?= get_template_directory_uri() ?>/img/sl-6.png" alt="">
                                             </div>
                                             <div class="dental-text">
                                                 <h4> Teeth Protection</h4>
                                                 <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
                                                 </p>
-                                                <a class="service-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><i class="fa fa-plus"></i></a>
+                                                <a class="service-btn tratamento-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><img class="image-read-more tratamento-btn" width="32" height="32" src="<?= get_template_directory_uri() ?>/img/icons/plus.svg" alt="Acessar" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -213,13 +213,13 @@ $contact = get_page_by_title('contato');
                                     <div class="item">
                                         <div class="service-general">
                                             <div class="service-img">
-                                                <img src="./Dental HTML Template_files/sl-1.png" alt="">
+                                                <img src="<?= get_template_directory_uri() ?>/img/sl-1.png" alt="">
                                             </div>
                                             <div class="dental-text">
                                                 <h4> Genera Dentistry</h4>
                                                 <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
                                                 </p>
-                                                <a class="service-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><i class="fa fa-plus"></i></a>
+                                                <a class="service-btn tratamento-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><img class="image-read-more tratamento-btn" width="32" height="32" src="<?= get_template_directory_uri() ?>/img/icons/plus.svg" alt="Acessar" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -228,13 +228,13 @@ $contact = get_page_by_title('contato');
                                     <div class="item">
                                         <div class="service-general">
                                             <div class="service-img">
-                                                <img src="./Dental HTML Template_files/sl-2.png" alt="">
+                                                <img src="<?= get_template_directory_uri() ?>/img/sl-2.png" alt="">
                                             </div>
                                             <div class="dental-text">
                                                 <h4> Implants</h4>
                                                 <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
                                                 </p>
-                                                <a class="service-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><i class="fa fa-plus"></i></a>
+                                                <a class="service-btn tratamento-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><img class="image-read-more tratamento-btn" width="32" height="32" src="<?= get_template_directory_uri() ?>/img/icons/plus.svg" alt="Acessar" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -243,20 +243,20 @@ $contact = get_page_by_title('contato');
                                     <div class="item">
                                         <div class="service-general">
                                             <div class="service-img">
-                                                <img src="./Dental HTML Template_files/sl-3.png" alt="">
+                                                <img src="<?= get_template_directory_uri() ?>/img/sl-3.png" alt="">
                                             </div>
                                             <div class="dental-text">
                                                 <h4> Dental Surgery</h4>
                                                 <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
                                                 </p>
-                                                <a class="service-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><i class="fa fa-plus"></i></a>
+                                                <a class="service-btn tratamento-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><img class="image-read-more tratamento-btn" width="32" height="32" src="<?= get_template_directory_uri() ?>/img/icons/plus.svg" alt="Acessar" /></a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="owl-dots disabled"></div>
                     </div>
                 </div>
