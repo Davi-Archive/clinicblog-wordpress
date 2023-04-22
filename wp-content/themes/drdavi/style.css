@@ -36,6 +36,8 @@ h4 {
 	font-family: jost, sans-serif
 }
 
+
+
 #menu-menu-principal {
 	display: flex !important;
 	list-style: none;
@@ -1620,12 +1622,14 @@ a.home-icon:hover {
 	text-decoration: none
 }
 
-.service-btn i.fa.fa-plus {
+.image-read-more {
 	border: 1px solid #999;
-	padding: 12px 14px;
+	padding: 5px;
 	border-radius: 10px;
 	margin-left: 10px;
-	background: #f5f5f5
+	background: #f5f5f5;
+	width: 40px;
+	height: 35px;
 }
 
 a,
@@ -1701,13 +1705,13 @@ hr.horizontal {
 }
 
 .testimonial-dental-slider button.owl-prev {
-	background-color: #fff !important;
-	border-radius: 0
+	border-radius: 20px;
+	box-shadow: #00000066 0px 2px 4px, #0000004d 0px 7px 13px -3px, #00000033 0px -3px 0px inset;
 }
 
 .testimonial-dental-slider button.owl-next {
-	background-color: #fff !important;
-	border-radius: 0
+	border-radius: 20px;
+	box-shadow: #00000066 0px 2px 4px, #0000004d 0px 7px 13px -3px, #00000033 0px -3px 0px inset;
 }
 
 .testimonial-dental-slider .owl-nav.disabled img {
@@ -1913,7 +1917,7 @@ a.service-btn:hover {
 	color: #fff
 }
 
-.service-general:hover .service-btn i {
+.service-general:hover .image-read-more {
 	background: #fff;
 	color: #000;
 	border-color: #0657a8;
@@ -2201,14 +2205,17 @@ section.service-dental-details.pt-60 {
 }
 
 .service-detail-slider .owl-prev {
-	background-color: #fff !important;
-	border-radius: 0
+	border-radius: 20px;
+	box-shadow: #00000066 0px 2px 4px, #0000004d 0px 7px 13px -3px, #00000033 0px -3px 0px inset;
 }
 
 .service-detail-slider .owl-next {
-	background-color: #fff !important;
-	border-radius: 0
+	border-radius: 20px;
+	box-shadow: #00000066 0px 2px 4px, #0000004d 0px 7px 13px -3px, #00000033 0px -3px 0px inset;
 }
+
+
+
 
 .service-detail-slider .owl-nav img {
 	width: 52%;

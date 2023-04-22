@@ -3,46 +3,101 @@
 get_header();
 ?>
 
-<section class="calender">
+<?php include(TEMPLATEPATH . '/inc/banner-top.php') ?>
+
+<section class="lab-services pt-60 pb-60">
     <div class="container">
         <div class="row">
-            <div class="col-sm-4 pd-0">
-                <div class="working-hours">
-                    <h2>WORKING HOURS</h2>
-                    <ul class="working">
-                        <li class="work-img"> <img src="<?php echo get_template_directory_uri() ?>/img/clock.png" alt="">MONDAY-FRIDAY
-                            <span>08:00Am-07:00PM</span>
-                        </li>
-                        <li class="work-img"> <img src="<?php echo get_template_directory_uri() ?>/img/clock.png" alt="">SATURDAY
-                            <span>11:00Am-03:00PM</span>
-                        </li>
-                        <li class="work-img"> <img src="<?php echo get_template_directory_uri() ?>/img/clock.png" alt="">SUNDAY
-                            <span>CLOSED</span>
-                        </li>
-                    </ul>
+            <div class="col-sm-5">
+                <div class="dental-service">
+                    <h5>Services</h5>
+                    <h2>More Dental Lab Services</h2>
                 </div>
             </div>
-            <div class="col-sm-4 pd-0">
-                <div class="contact-details">
-                    <h2>CONTACT DETAILS</h2>
-                    <ul class="contact">
-                        <li><span><i class="lni lni-map-marker"></i></span>4500 Mercntile plaza,Suite 300, Fort Worth,TX,76137,USA</li>
-                        <li><span><i class="lni lni-phone"></i></span>
-                            +1(817) 901 3377<br>
-                            +1(817) *** 3377
-                        </li>
-                    </ul>
-                    <a href="https://products.webrockmedia.com/dentallab-html/index.html#">GET DIRECTION ON THE MAP <i class="lni lni-arrow-right"></i></a>
+            <div class="col-sm-7">
+                <div class="service-implant">
+                    <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'content here, content</p>
                 </div>
             </div>
-            <div class="col-sm-4 pd-0">
-                <div class="appointment">
-                    <h2>REQUEST AN APPOINTMENT</h2>
-                    <div class="request">
-                        <img src="<?php echo get_template_directory_uri() ?>/img/clock.png" alt="">
-                        <span>CHOOSE THE RIGHT TIME AND DATE FOR YOU </span>
+        </div>
+        <div class="row pt-60">
+            <div class="col-sm-4">
+                <div class="service-general">
+                    <div class="service-img">
+                        <img src="<?= get_template_directory_uri() ?>/img/sl-1.png" alt="">
                     </div>
-                    <a href="https://products.webrockmedia.com/dentallab-html/index.html#">MAKE AN APPOINTMENT <i class="lni lni-arrow-right"></i></a>
+                    <div class="dental-text">
+                        <h4> Genera Dentistry</h4>
+                        <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
+                        </p>
+                        <a class="service-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><img class="image-read-more" width="32" height="32" src="<?= get_template_directory_uri() ?>/img/icons/plus.svg" alt="Acessar" /></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="service-general">
+                    <div class="service-img">
+                        <img src="<?= get_template_directory_uri() ?>/img/sl-2.png" alt="">
+                    </div>
+                    <div class="dental-text">
+                        <h4> Implants</h4>
+                        <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
+                        </p>
+                        <a class="service-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><img class="image-read-more" width="32" height="32" src="<?= get_template_directory_uri() ?>/img/icons/plus.svg" alt="Acessar" /></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="service-general">
+                    <div class="service-img">
+                        <img src="<?= get_template_directory_uri() ?>/img/sl-3.png" alt="">
+                    </div>
+                    <div class="dental-text">
+                        <h4> Dental Surgery</h4>
+                        <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
+                        </p>
+                        <a class="service-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><img class="image-read-more" width="32" height="32" src="<?= get_template_directory_uri() ?>/img/icons/plus.svg" alt="Acessar" /></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="service-general">
+                    <div class="service-img">
+                        <img src="<?= get_template_directory_uri() ?>/img/sl-4.png" alt="">
+                    </div>
+                    <div class="dental-text">
+                        <h4> Alignment</h4>
+                        <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
+                        </p>
+                        <a class="service-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><img class="image-read-more" width="32" height="32" src="<?= get_template_directory_uri() ?>/img/icons/plus.svg" alt="Acessar" /></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="service-general">
+                    <div class="service-img">
+                        <img src="<?= get_template_directory_uri() ?>/img/sl-5.png" alt="">
+                    </div>
+                    <div class="dental-text">
+                        <h4> Teeth Braces</h4>
+                        <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
+                        </p>
+                        <a class="service-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><img class="image-read-more" width="32" height="32" src="<?= get_template_directory_uri() ?>/img/icons/plus.svg" alt="Acessar" /></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="service-general">
+                    <div class="service-img">
+                        <img src="<?= get_template_directory_uri() ?>/img/sl-6.png" alt="">
+                    </div>
+                    <div class="dental-text">
+                        <h4> Teeth Protection</h4>
+                        <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
+                        </p>
+                        <a class="service-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b>
+                            <img class="image-read-more" width="32" height="32" src="<?= get_template_directory_uri() ?>/img/icons/plus.svg" alt="Acessar" /></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -50,258 +105,215 @@ get_header();
 </section>
 
 
-<section class="about-us">
+<section class="services-testimonials pt-60 pb-60">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
-                <div class="about-img">
-                    <img src="<?php echo get_template_directory_uri() ?>/img/about.png" alt="">
+            <div class="col-sm-5">
+                <div class="dent-service">
+                    <h5>Testimonials</h5>
+                    <h2>User Feedback</h2>
                 </div>
             </div>
-            <div class="col-sm-6">
-                <div class="about-text">
-                    <div class="text-img">
-                        <img src="<?php echo get_template_directory_uri() ?>/img/heading.png" alt="">
-                        <h6>ABOUT US</h6>
-                    </div>
-                    <h2>We're Open and Welcoming Patients Your New Smile</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gallery of type and scrambled it to make a type specimen book.
-                        <br>
-                        <br>
-                        it has survived not only five centuries , but also leap into electronic typesetting, remanining essentially unchanged.
-                    </p>
-                    <a class="started" href="https://products.webrockmedia.com/dentallab-html/index.html#">Get Started</a>
+            <div class="col-sm-7">
+                <div class="service-implant1">
+                    <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'content here, content</p>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-
-
-<section class="home-service pt-90 pb-90">
-    <div class="container">
-        <div class="row">
+        <div class="row pt-60">
             <div class="col-md-12">
-                <div class="our-service">
-                    <h5>OUR SERVICES</h5>
-                    <h2> Explore our Main Services</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                        <br>
-                        industry's standard dummy text ever since the 1500s
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row pt-30">
-            <div class="col-md-12">
-                <div class="service-slider">
-                    <div class="owl-carousel owl-theme owl-loaded owl-drag" id="demoslide4">
-
+                <div class="testimonial-dental-slider">
+                    <div class="owl-carousel owl-theme owl-loaded owl-drag" id="demoslide2">
 
 
 
                         <div class="owl-stage-outer">
-                            <div class="owl-stage" style="transform: translate3d(-1135px, 0px, 0px); transition: all 0.25s ease 0s; width: 3405px;">
-                                <div class="owl-item cloned" style="width: 258.75px; margin-right: 25px;">
+                            <div class="owl-stage" style="transform: translate3d(-1134px, 0px, 0px); transition: all 0.25s ease 0s; width: 3405px;">
+                                <div class="owl-item cloned" style="width: 353.333px; margin-right: 25px;">
                                     <div class="item">
-                                        <div class="testing">
-                                            <div class="testing-img">
-                                                <img src="<?php echo get_template_directory_uri() ?>/img/icon-2.png" alt="">
+                                        <div class="testimonial-user">
+                                            <div class="testimonials-bgcolor">
+                                                <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'content here</p>
+                                                <div class="user-img">
+                                                    <img src="<?= get_template_directory_uri() ?>/img/rating.png" alt="">
+                                                </div>
                                             </div>
-                                            <div class="testing-number">
-                                                <span>01</span>
-                                            </div>
-                                            <div class="testing-text">
-                                                <h4>Pathology Testing</h4>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
-                                                <a href="https://products.webrockmedia.com/dentallab-html/index.html#">Read More...</a>
+                                            <div class="testimonial-feedback">
+                                                <div class="feedback-img">
+                                                    <img src="<?= get_template_directory_uri() ?>/img/test-1.png" alt="">
+                                                </div>
+                                                <div class="user-text">
+                                                    <h6>Tiffany Cook</h6>
+                                                    <p>UI/UX Designer</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="owl-item cloned" style="width: 258.75px; margin-right: 25px;">
+                                <div class="owl-item cloned" style="width: 353.333px; margin-right: 25px;">
                                     <div class="item">
-                                        <div class="testing">
-                                            <div class="testing-img">
-                                                <img src="<?php echo get_template_directory_uri() ?>/img/icon-3.png" alt="">
+                                        <div class="testimonial-user">
+                                            <div class="testimonials-bgcolor">
+                                                <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'content here</p>
+                                                <div class="user-img">
+                                                    <img src="<?= get_template_directory_uri() ?>/img/rating.png" alt="">
+                                                </div>
                                             </div>
-                                            <div class="testing-number">
-                                                <span>02</span>
-                                            </div>
-                                            <div class="testing-text">
-                                                <h4>Dental Surgery</h4>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
-                                                <a href="https://products.webrockmedia.com/dentallab-html/index.html#">Read More...</a>
+                                            <div class="testimonial-feedback">
+                                                <div class="feedback-img">
+                                                    <img src="<?= get_template_directory_uri() ?>/img/test-2.png" alt="">
+                                                </div>
+                                                <div class="user-text">
+                                                    <h6>Tiffany Cook</h6>
+                                                    <p>UI/UX Designer</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="owl-item cloned" style="width: 258.75px; margin-right: 25px;">
+                                <div class="owl-item cloned" style="width: 353.333px; margin-right: 25px;">
                                     <div class="item">
-                                        <div class="testing">
-                                            <div class="testing-img">
-                                                <img src="<?php echo get_template_directory_uri() ?>/img/icon-3.png" alt="">
+                                        <div class="testimonial-user">
+                                            <div class="testimonials-bgcolor">
+                                                <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'content here</p>
+                                                <div class="user-img">
+                                                    <img src="<?= get_template_directory_uri() ?>/img/rating.png" alt="">
+                                                </div>
                                             </div>
-                                            <div class="testing-number">
-                                                <span>03</span>
-                                            </div>
-                                            <div class="testing-text">
-                                                <h4>Clanging Dental</h4>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
-                                                <a href="https://products.webrockmedia.com/dentallab-html/index.html#">Read More...</a>
+                                            <div class="testimonial-feedback">
+                                                <div class="feedback-img">
+                                                    <img src="<?= get_template_directory_uri() ?>/img/test-3.png" alt="">
+                                                </div>
+                                                <div class="user-text">
+                                                    <h6>Tiffany Cook</h6>
+                                                    <p>UI/UX Designer</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="owl-item cloned" style="width: 258.75px; margin-right: 25px;">
+                                <div class="owl-item active" style="width: 353.333px; margin-right: 25px;">
                                     <div class="item">
-                                        <div class="testing">
-                                            <div class="testing-img">
-                                                <img src="<?php echo get_template_directory_uri() ?>/img/icon-2.png" alt="">
+                                        <div class="testimonial-user">
+                                            <div class="testimonials-bgcolor">
+                                                <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'content here</p>
+                                                <div class="user-img">
+                                                    <img src="<?= get_template_directory_uri() ?>/img/rating.png" alt="">
+                                                </div>
                                             </div>
-                                            <div class="testing-number">
-                                                <span>04</span>
-                                            </div>
-                                            <div class="testing-text">
-                                                <h4>Laboratory Analysis</h4>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
-                                                <a href="https://products.webrockmedia.com/dentallab-html/index.html#">Read More...</a>
+                                            <div class="testimonial-feedback">
+                                                <div class="feedback-img">
+                                                    <img src="<?= get_template_directory_uri() ?>/img/test-1.png" alt="">
+                                                </div>
+                                                <div class="user-text">
+                                                    <h6>Tiffany Cook</h6>
+                                                    <p>UI/UX Designer</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="owl-item active" style="width: 258.75px; margin-right: 25px;">
+                                <div class="owl-item active" style="width: 353.333px; margin-right: 25px;">
                                     <div class="item">
-                                        <div class="testing">
-                                            <div class="testing-img">
-                                                <img src="<?php echo get_template_directory_uri() ?>/img/icon-2.png" alt="">
+                                        <div class="testimonial-user">
+                                            <div class="testimonials-bgcolor">
+                                                <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'content here</p>
+                                                <div class="user-img">
+                                                    <img src="<?= get_template_directory_uri() ?>/img/rating.png" alt="">
+                                                </div>
                                             </div>
-                                            <div class="testing-number">
-                                                <span>01</span>
-                                            </div>
-                                            <div class="testing-text">
-                                                <h4>Pathology Testing</h4>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
-                                                <a href="https://products.webrockmedia.com/dentallab-html/index.html#">Read More...</a>
+                                            <div class="testimonial-feedback">
+                                                <div class="feedback-img">
+                                                    <img src="<?= get_template_directory_uri() ?>/img/test-2.png" alt="">
+                                                </div>
+                                                <div class="user-text">
+                                                    <h6>Tiffany Cook</h6>
+                                                    <p>UI/UX Designer</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="owl-item active" style="width: 258.75px; margin-right: 25px;">
+                                <div class="owl-item active" style="width: 353.333px; margin-right: 25px;">
                                     <div class="item">
-                                        <div class="testing">
-                                            <div class="testing-img">
-                                                <img src="<?php echo get_template_directory_uri() ?>/img/icon-3.png" alt="">
+                                        <div class="testimonial-user">
+                                            <div class="testimonials-bgcolor">
+                                                <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'content here</p>
+                                                <div class="user-img">
+                                                    <img src="<?= get_template_directory_uri() ?>/img/rating.png" alt="">
+                                                </div>
                                             </div>
-                                            <div class="testing-number">
-                                                <span>02</span>
-                                            </div>
-                                            <div class="testing-text">
-                                                <h4>Dental Surgery</h4>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
-                                                <a href="https://products.webrockmedia.com/dentallab-html/index.html#">Read More...</a>
+                                            <div class="testimonial-feedback">
+                                                <div class="feedback-img">
+                                                    <img src="<?= get_template_directory_uri() ?>/img/test-3.png" alt="">
+                                                </div>
+                                                <div class="user-text">
+                                                    <h6>Tiffany Cook</h6>
+                                                    <p>UI/UX Designer</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="owl-item active" style="width: 258.75px; margin-right: 25px;">
+                                <div class="owl-item cloned" style="width: 353.333px; margin-right: 25px;">
                                     <div class="item">
-                                        <div class="testing">
-                                            <div class="testing-img">
-                                                <img src="<?php echo get_template_directory_uri() ?>/img/icon-3.png" alt="">
+                                        <div class="testimonial-user">
+                                            <div class="testimonials-bgcolor">
+                                                <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'content here</p>
+                                                <div class="user-img">
+                                                    <img src="<?= get_template_directory_uri() ?>/img/rating.png" alt="">
+                                                </div>
                                             </div>
-                                            <div class="testing-number">
-                                                <span>03</span>
-                                            </div>
-                                            <div class="testing-text">
-                                                <h4>Clanging Dental</h4>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
-                                                <a href="https://products.webrockmedia.com/dentallab-html/index.html#">Read More...</a>
+                                            <div class="testimonial-feedback">
+                                                <div class="feedback-img">
+                                                    <img src="<?= get_template_directory_uri() ?>/img/test-1.png" alt="">
+                                                </div>
+                                                <div class="user-text">
+                                                    <h6>Tiffany Cook</h6>
+                                                    <p>UI/UX Designer</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="owl-item active" style="width: 258.75px; margin-right: 25px;">
+                                <div class="owl-item cloned" style="width: 353.333px; margin-right: 25px;">
                                     <div class="item">
-                                        <div class="testing">
-                                            <div class="testing-img">
-                                                <img src="<?php echo get_template_directory_uri() ?>/img/icon-2.png" alt="">
+                                        <div class="testimonial-user">
+                                            <div class="testimonials-bgcolor">
+                                                <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'content here</p>
+                                                <div class="user-img">
+                                                    <img src="<?= get_template_directory_uri() ?>/img/rating.png" alt="">
+                                                </div>
                                             </div>
-                                            <div class="testing-number">
-                                                <span>04</span>
-                                            </div>
-                                            <div class="testing-text">
-                                                <h4>Laboratory Analysis</h4>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
-                                                <a href="https://products.webrockmedia.com/dentallab-html/index.html#">Read More...</a>
+                                            <div class="testimonial-feedback">
+                                                <div class="feedback-img">
+                                                    <img src="<?= get_template_directory_uri() ?>/img/test-2.png" alt="">
+                                                </div>
+                                                <div class="user-text">
+                                                    <h6>Tiffany Cook</h6>
+                                                    <p>UI/UX Designer</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="owl-item cloned" style="width: 258.75px; margin-right: 25px;">
+                                <div class="owl-item cloned" style="width: 353.333px; margin-right: 25px;">
                                     <div class="item">
-                                        <div class="testing">
-                                            <div class="testing-img">
-                                                <img src="<?php echo get_template_directory_uri() ?>/img/icon-2.png" alt="">
+                                        <div class="testimonial-user">
+                                            <div class="testimonials-bgcolor">
+                                                <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'content here</p>
+                                                <div class="user-img">
+                                                    <img src="<?= get_template_directory_uri() ?>/img/rating.png" alt="">
+                                                </div>
                                             </div>
-                                            <div class="testing-number">
-                                                <span>01</span>
-                                            </div>
-                                            <div class="testing-text">
-                                                <h4>Pathology Testing</h4>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
-                                                <a href="https://products.webrockmedia.com/dentallab-html/index.html#">Read More...</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned" style="width: 258.75px; margin-right: 25px;">
-                                    <div class="item">
-                                        <div class="testing">
-                                            <div class="testing-img">
-                                                <img src="<?php echo get_template_directory_uri() ?>/img/icon-3.png" alt="">
-                                            </div>
-                                            <div class="testing-number">
-                                                <span>02</span>
-                                            </div>
-                                            <div class="testing-text">
-                                                <h4>Dental Surgery</h4>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
-                                                <a href="https://products.webrockmedia.com/dentallab-html/index.html#">Read More...</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned" style="width: 258.75px; margin-right: 25px;">
-                                    <div class="item">
-                                        <div class="testing">
-                                            <div class="testing-img">
-                                                <img src="<?php echo get_template_directory_uri() ?>/img/icon-3.png" alt="">
-                                            </div>
-                                            <div class="testing-number">
-                                                <span>03</span>
-                                            </div>
-                                            <div class="testing-text">
-                                                <h4>Clanging Dental</h4>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
-                                                <a href="https://products.webrockmedia.com/dentallab-html/index.html#">Read More...</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned" style="width: 258.75px; margin-right: 25px;">
-                                    <div class="item">
-                                        <div class="testing">
-                                            <div class="testing-img">
-                                                <img src="<?php echo get_template_directory_uri() ?>/img/icon-2.png" alt="">
-                                            </div>
-                                            <div class="testing-number">
-                                                <span>04</span>
-                                            </div>
-                                            <div class="testing-text">
-                                                <h4>Laboratory Analysis</h4>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
-                                                <a href="https://products.webrockmedia.com/dentallab-html/index.html#">Read More...</a>
+                                            <div class="testimonial-feedback">
+                                                <div class="feedback-img">
+                                                    <img src="<?= get_template_directory_uri() ?>/img/test-3.png" alt="">
+                                                </div>
+                                                <div class="user-text">
+                                                    <h6>Tiffany Cook</h6>
+                                                    <p>UI/UX Designer</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -316,83 +328,7 @@ get_header();
     </div>
 </section>
 
-
-<section class="choose-us">
-    <div class="row">
-        <div class="col-sm-6 pt-90">
-            <div class="why-choose">
-                <div class="why-choose-text">
-                    <h4>WHY CHOOSE US</h4>
-                    <h2>A great place to work Great <br>
-                        place to receive care</h2>
-                </div>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
-                <ul class="why-choose-list">
-                    <li><span>01</span>
-                        <h5>CHOOSE CONFIDENTLY</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</p>
-                    </li>
-                    <li><span>01</span>
-                        <h5>PRECISE DIAGNOSIS</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</p>
-                    </li>
-                    <li><span>01</span>
-                        <h5>STAY HEALTHY</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="col-sm-6 us-img">
-            <div class="why-chose-img">
-                <img src="<?php echo get_template_directory_uri() ?>/img/whay.png" alt="">
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="book-your-visit">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-5">
-                <div class="emergency">
-                    <h2>Have an emergency?<br>
-                        Book your visit</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                </div>
-            </div>
-            <div class="col-sm-7">
-                <div class="book-your">
-                    <div class="post-comment mart-0-cont">
-                        <div class="comment-re post-com">
-                            <form id="my-form" action="https://formspree.io/f/mlezgrkw" method="POST" class="row">
-                                <div class="form-group col-md-6">
-                                    <input type="text" placeholder="Name" name="Name" class="form-control form-com">
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <input type="email" placeholder="Email" name="Email" class="form-control form-com">
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <input type="number" placeholder="Mobile" name="Mobile" class="form-control form-com">
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <input type="text" placeholder="Subject" name="Subject" class="form-control form-com">
-                                </div>
-                                <div class="view-all col-md-12">
-                                    <button class="animation-cer-btn" id="my-form-button">
-                                        Send Message
-                                    </button>
-                                    <p id="my-form-status"></p>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<hr class="horizontal">
 
 <?php ?>
 

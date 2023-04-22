@@ -5,9 +5,6 @@ get_header();
 
 <?php include(TEMPLATEPATH . '/inc/carousel-banner.php') ?>
 
-
-
-
 <section class="about-us">
   <div class="container">
     <div class="row">
@@ -27,7 +24,7 @@ get_header();
             O sorriso é uma das expressões mais belas que podemos ter. É a forma mais simples e sincera de demonstrar amor, carinho e felicidade. Ele é o nosso cartão de visitas, a primeira coisa que as pessoas veem quando nos conhecem. Além disso, ele é contagioso, ou seja, quando sorrimos para alguém, é muito provável que essa pessoa também sorria de volta.
             <br>
             <br>
-            Não importa qual seja sua origem, seu gênero, sua idade ou seu status social, o sorriso é universal, é a linguagem que todos entendemos. Ele pode ser o início de uma amizade, a prova de um amor verdadeiro. O sorriso é a expressão da alma feliz. Por isso, devemos valorizar e cuidar do nosso sorriso. Cuidar da saúde bucal, manter os dentes limpos e saudáveis, ir ao dentista regularmente. Mas acima de tudo, cultivar a alegria em nosso coração, buscar motivos para sorrir todos os dias. 
+            Não importa qual seja sua origem, seu gênero, sua idade ou seu status social, o sorriso é universal, é a linguagem que todos entendemos. Ele pode ser o início de uma amizade, a prova de um amor verdadeiro. O sorriso é a expressão da alma feliz. Por isso, devemos valorizar e cuidar do nosso sorriso. Cuidar da saúde bucal, manter os dentes limpos e saudáveis, ir ao dentista regularmente. Mas acima de tudo, cultivar a alegria em nosso coração, buscar motivos para sorrir todos os dias.
           </p>
           <a class="started" href="https://products.webrockmedia.com/dentallab-html/index.html#">Mandar uma mensagem ao Doutor</a>
         </div>

@@ -10,19 +10,21 @@ function register_code()
 
 
     // Enqueue my scripts.
+    wp_enqueue_script('jquery', get_template_directory_uri() . '/js/jquery-3.6.0.min.js', array(), null, true);
+
     wp_enqueue_script('bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js', array(), null, true);
 
     wp_enqueue_script('isotope', get_template_directory_uri() . '/js/isotope.pkgd.min.js', array(), null, true);
 
-    wp_enqueue_script('jquery', get_template_directory_uri() . '/js/jquery-3.6.0.min.js', array(), null, true);
 
     wp_enqueue_script('jquery-magnific', get_template_directory_uri() . '/js/jquery.magnific-popup.min.js', array(), null, true);
 
-    wp_enqueue_script('main', get_template_directory_uri() . '/js/main.js', array(), null, true);
 
     wp_enqueue_script('owl', get_template_directory_uri() . '/js/owl.carousel.min.js', array(), null, true);
 
     wp_enqueue_script('swiper', get_template_directory_uri() . '/js/swiper.min.js', array(), null, true);
+
+    wp_enqueue_script('main', get_template_directory_uri() . '/js/main.js', array('jquery', 'bootstrap', 'isotope', 'jquery-magnific', 'owl', 'swiper'), null, true);
 }
 
 
