@@ -7,7 +7,7 @@
                    <div class="footer">
                        <div class="footer-heading">
                            <h4>Sobre </h4>
-                           <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
+                           <span>Sou dentista especialista formado pela Universidade de São Paulo, com muitos anos de experiência na área.
                            </span>
                        </div>
                        <div class="footer-contact">
@@ -86,7 +86,8 @@
                        </li>
                    </ul>
                    <div class="copy_text">
-                       <span>Todos os direitos reservados 2023 - por Davi</span>
+                       <span>Todos os direitos reservados <?php echo
+                                                            date('Y') ?> - por Davi</span>
                    </div>
                </div>
            </div>
@@ -126,6 +127,10 @@
    <script src="<?php echo get_template_directory_uri() ?>/js/owl.carousel.min.js" type="text/javascript"></script>
    <script src="<?php echo get_template_directory_uri() ?>/js/swiper.min.js" type="text/javascript"></script>
    <script src="<?php echo get_template_directory_uri() ?>/js/main.js" type="text/javascript"></script>
+
+    <!-- WP Admin Start -->
+     <?php wp_footer() ?>
+    <!-- WP Admin End -->
 
    </body>
 

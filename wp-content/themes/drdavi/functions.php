@@ -51,3 +51,44 @@ function register_my_menu()
     ));
 }
 add_action('init', 'register_my_menu');
+
+// Length of the Excerpt
+function wpdocs_custom_excerpt_length($length)
+{
+    return 10;
+}
+add_filter('excerpt_length', 'wpdocs_custom_excerpt_length', 999);
+
+
+function custom_post_type_tratamento()
+{
+    register_post_type('tratamentos', array(
+        'label' => 'Tratamentos',
+        'description' => 'Tratamentos',
+        'public' => true,
+        'show_ui' => true,
+        'show_in_menu' => true,
+        'capability_type' => 'post',
+        'map_meta_cap' => true,
+        'hierarchical' => false,
+        'rewrite' => array('slug' => 'tratamentos', 'with_front' => true),
+        'query_var' => true,
+        'supports' => array('title', 'editor', 'page-attributes', 'post-formats'),
+        'labels' => array(
+            'name' => 'Tratamentos',
+            'singular_name' => 'Tratamentos',
+            'menu_name' => 'Tratamentos',
+            'add_new' => 'Adicionar Novo',
+            'add_new_item' => 'Adicionar Novo Tratamento',
+            'edit' => 'Editar',
+            'edit_item' => 'Editar Tratamento',
+            'new_item' => 'Novo Tratamento',
+            'view' => 'Ver Tratamento',
+            'view_item' => 'Ver Tratamento',
+            'search_items' => 'Procurar Tratamento',
+            'not_found' => 'Nenhum Tratamento Encontrado',
+            'not_found_in_trash' => 'Nenhum Tratamento Encontrado no Lixo'
+        )
+    ));
+}
+add_action('init', 'custom_post_type_tratamento');
