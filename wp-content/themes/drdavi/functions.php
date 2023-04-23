@@ -62,6 +62,9 @@ function wpdocs_custom_excerpt_length($length)
 add_filter('excerpt_length', 'wpdocs_custom_excerpt_length', 999);
 
 
+
+// Post Types Below
+
 function custom_post_type_tratamento()
 {
     register_post_type('tratamentos', array(
@@ -80,7 +83,7 @@ function custom_post_type_tratamento()
             'name' => 'Tratamentos',
             'singular_name' => 'Tratamentos',
             'menu_name' => 'Tratamentos',
-            'add_new' => 'Adicionar Novo',
+            'add_new' => 'Adicionar Novo Tratamento',
             'add_new_item' => 'Adicionar Novo Tratamento',
             'edit' => 'Editar',
             'edit_item' => 'Editar Tratamento',
@@ -94,3 +97,103 @@ function custom_post_type_tratamento()
     ));
 }
 add_action('init', 'custom_post_type_tratamento');
+
+function custom_post_type_banners()
+{
+    register_post_type('banners', array(
+        'label' => 'Banners',
+        'description' => 'Banners',
+        'public' => true,
+        'show_ui' => true,
+        'show_in_menu' => true,
+        'capability_type' => 'post',
+        'map_meta_cap' => true,
+        'hierarchical' => false,
+        'rewrite' => array('slug' => 'banners', 'with_front' => true),
+        'query_var' => true,
+        'supports' => array('title', 'editor', 'page-attributes', 'post-formats'),
+        'labels' => array(
+            'name' => 'Banners',
+            'singular_name' => 'Banners',
+            'menu_name' => 'Banners',
+            'add_new' => 'Adicionar Novo',
+            'add_new_item' => 'Adicionar Novo Banner',
+            'edit' => 'Editar',
+            'edit_item' => 'Editar Banner',
+            'new_item' => 'Novo Banner',
+            'view' => 'Ver Banner',
+            'view_item' => 'Ver Banner',
+            'search_items' => 'Procurar Banner',
+            'not_found' => 'Nenhum Banner Encontrado',
+            'not_found_in_trash' => 'Nenhum Banner Encontrado no Lixo'
+        )
+    ));
+}
+add_action('init', 'custom_post_type_banners');
+
+
+function custom_post_type_servicos()
+{
+    register_post_type('servicos', array(
+        'label' => 'Servicos',
+        'description' => 'Servicos',
+        'public' => true,
+        'show_ui' => true,
+        'show_in_menu' => true,
+        'capability_type' => 'post',
+        'map_meta_cap' => true,
+        'hierarchical' => false,
+        'rewrite' => array('slug' => 'servicos', 'with_front' => true),
+        'query_var' => true,
+        'supports' => array('title', 'editor', 'page-attributes', 'post-formats'),
+        'labels' => array(
+            'name' => 'Serviços',
+            'singular_name' => 'Serviços',
+            'menu_name' => 'Servicos',
+            'add_new' => 'Adicionar Novo',
+            'add_new_item' => 'Adicionar Novo Serviço',
+            'edit' => 'Editar',
+            'edit_item' => 'Editar Serviço',
+            'new_item' => 'Novo Serviço',
+            'view' => 'Ver Serviço',
+            'view_item' => 'Ver Serviço',
+            'search_items' => 'Procurar Serviço',
+            'not_found' => 'Nenhum Serviço Encontrado',
+            'not_found_in_trash' => 'Nenhum Serviço Encontrado no Lixo'
+        )
+    ));
+}
+add_action('init', 'custom_post_type_servicos');
+
+function custom_post_type_depoimentos()
+{
+    register_post_type('depoimentos', array(
+        'label' => 'Depoimentos',
+        'description' => 'Depoimentos',
+        'public' => true,
+        'show_ui' => true,
+        'show_in_menu' => true,
+        'capability_type' => 'post',
+        'map_meta_cap' => true,
+        'hierarchical' => false,
+        'rewrite' => array('slug' => 'depoimentos', 'with_front' => true),
+        'query_var' => true,
+        'supports' => array('title', 'editor', 'page-attributes', 'post-formats'),
+        'labels' => array(
+            'name' => 'Depoimentos',
+            'singular_name' => 'Depoimentos',
+            'menu_name' => 'Depoimentos',
+            'add_new' => 'Adicionar Novo',
+            'add_new_item' => 'Adicionar Novo Depoimento',
+            'edit' => 'Editar',
+            'edit_item' => 'Editar Depoimento',
+            'new_item' => 'Novo Depoimento',
+            'view' => 'Ver Depoimento',
+            'view_item' => 'Ver Depoimento',
+            'search_items' => 'Procurar Depoimento',
+            'not_found' => 'Nenhum Depoimento Encontrado',
+            'not_found_in_trash' => 'Nenhum Depoimento Encontrado no Lixo'
+        )
+    ));
+}
+add_action('init', 'custom_post_type_depoimentos');

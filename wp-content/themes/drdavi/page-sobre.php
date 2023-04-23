@@ -11,7 +11,7 @@ get_header();
         <div class="row">
             <div class="col-sm-5">
                 <div class="we-text">
-                    <h2>Who Are We?</h2>
+                    <h2>Quem sou eu?</h2>
                 </div>
             </div>
             <div class="col-sm-7">
