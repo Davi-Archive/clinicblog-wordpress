@@ -54,7 +54,7 @@ get_header();
           <div class="owl-carousel owl-theme owl-loaded owl-drag" id="demoslide4">
 
             <div class="owl-stage-outer">
-              <div class="owl-stage" style="transform: translate3d(-1135px, 0px, 0px); transition: all 0.25s ease 0s; width: 3405px;">
+              <div class="owl-stage" style="transform: translate3d(-1135px, 0px, 0px); transition: all 0.15s ease 0s; width: 3405px;">
 
 
                 <?php
