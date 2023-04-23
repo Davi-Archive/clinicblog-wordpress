@@ -70,7 +70,7 @@
                            </a>
                        </li>
                        <li>
-                           <a href="<?php the_field('instagram', $contact) ?>" class="pinterest-change-co">
+                           <a href="<?php the_field('instagram', $contact) ?>" class="instagram-change-co">
                                <img src="<?php echo get_template_directory_uri() ?>/img/icons/insta.svg" alt="Instagram">
                            </a>
                        </li>
@@ -100,8 +100,8 @@
 
            <div class="modal-content">
                <div class="modal-header">
-                   <a class="navbar-brand" href="https://products.webrockmedia.com/dentallab-html/index.html#"><img src="<?php echo get_template_directory_uri() ?>/img/logo.png" alt=""></a>
-                   <button type="button" class="close" data-dismiss="modal">×</button>
+                   <a class="navbar-brand" href="/"><img src="<?php echo get_template_directory_uri() ?>/img/logo.png" alt=""></a>
+                   <button type="button" class="close" data-dismiss="modal"></button>
                </div>
                <div class="modal-body">
                    <?php

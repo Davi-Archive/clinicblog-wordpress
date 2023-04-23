@@ -317,4 +317,18 @@
             $(this).siblings(".content").slideDown(200);
         }
     })
+
+
+    // why choose us resize on responsive
+    $(window).on('resize', function() {
+                if ($(window).width() > 980) {
+                    $('.why-choose-container').addClass('col-sm-6');
+                    $('.why-choose-container').removeClass('col-lg-12');
+                    $('.why-chose-container-img').removeClass('hide-element');
+                } else {
+                    $('.why-choose-container').removeClass('col-sm-6');
+                    $('.why-choose-container').addClass('col-lg-12');
+                    $('.why-chose-container-img').addClass('hide-element');
+                }
+            })
 })(jQuery);

@@ -38,20 +38,20 @@ $contact = get_page_by_title('contato');
                         <div class="form-send">
                             <form id="my-form" action="https://formspree.io/f/xayvnadd" method="POST">
                                 <div class="form-group">
-                                    <input type="text" placeholder="Name" name="name" class="form-control form-com">
+                                    <input type="text" placeholder="Nome" name="name" class="form-control form-com">
                                 </div>
                                 <div class="form-group">
                                     <input type="email" placeholder="Email" name="email" class="form-control form-com">
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" placeholder="Appointment Date" name="email" class="form-control form-com">
+                                    <input type="email" placeholder="Assunto" name="title" class="form-control form-com">
                                 </div>
                                 <div class="form-group">
-                                    <textarea placeholder="Message" name="message" class="form-control form-com-message "></textarea>
+                                    <textarea placeholder="Mensagem" name="message" class="form-control form-com-message "></textarea>
                                 </div>
                                 <div class="view-one">
                                     <button class="btn upcase" id="my-form-button">
-                                        Send Message
+                                        Enviar Mensagem
                                     </button>
                                     <p id="my-form-status"></p>
                                 </div>

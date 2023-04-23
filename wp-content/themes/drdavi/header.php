@@ -1,7 +1,7 @@
 <?php $contact = get_page_by_title('contato') ?>
 
 <!DOCTYPE html>
-<html class="no-js" lang="ptBR">
+<html lang="ptBR">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -75,4 +75,3 @@
             </nav>
         </div>
     </header>
-

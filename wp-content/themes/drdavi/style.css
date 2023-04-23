@@ -36,7 +36,13 @@ h4 {
 	font-family: jost, sans-serif
 }
 
+.hide-element{
+	display: none;
+}
 
+.current-menu-item a {
+	color: #93979b !important;
+}
 
 #menu-menu-principal {
 	display: flex !important;
@@ -807,7 +813,7 @@ hr {
 	color: #fff
 }
 
-.pinterest-change-co {
+.instagram-change-co {
 	background-color: #bf0505;
 	color: #fff
 }
