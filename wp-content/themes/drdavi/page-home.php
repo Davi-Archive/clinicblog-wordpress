@@ -1,6 +1,7 @@
 <?php
 // Template Name: Home
 get_header();
+$home = get_page_by_title('home');
 ?>
 
 <?php include(TEMPLATEPATH . '/inc/home/carousel-banner.php') ?>
@@ -21,12 +22,9 @@ get_header();
           </div>
           <h2>Sei a importância do sorriso e quero ver você com seu melhor sorriso.</h2>
           <p>
-            O sorriso é uma das expressões mais belas que podemos ter. É a forma mais simples e sincera de demonstrar amor, carinho e felicidade. Ele é o nosso cartão de visitas, a primeira coisa que as pessoas veem quando nos conhecem. Além disso, ele é contagioso, ou seja, quando sorrimos para alguém, é muito provável que essa pessoa também sorria de volta.
-            <br>
-            <br>
-            Não importa qual seja sua origem, seu gênero, sua idade ou seu status social, o sorriso é universal, é a linguagem que todos entendemos. Ele pode ser o início de uma amizade, a prova de um amor verdadeiro. O sorriso é a expressão da alma feliz. Por isso, devemos valorizar e cuidar do nosso sorriso. Cuidar da saúde bucal, manter os dentes limpos e saudáveis, ir ao dentista regularmente. Mas acima de tudo, cultivar a alegria em nosso coração, buscar motivos para sorrir todos os dias.
+            <?php the_field('sobre_home', $home) ?>
           </p>
-          <a class="started" href="https://products.webrockmedia.com/dentallab-html/index.html#">Enviar uma mensagem</a>
+          <a class="started" href="/contato/">Enviar uma mensagem</a>
         </div>
       </div>
     </div>

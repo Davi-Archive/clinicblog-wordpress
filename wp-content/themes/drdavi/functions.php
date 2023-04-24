@@ -62,6 +62,16 @@ function wpdocs_custom_excerpt_length($length)
 add_filter('excerpt_length', 'wpdocs_custom_excerpt_length', 999);
 
 
+// Change Login page icon
+function my_custom_login_logo()
+{
+    echo '<style type="text/css">
+    h1 a {background-image:url(https://example.com/your-logo.png) !important; margin:0 auto;}
+    </style>';
+}
+add_filter('login_head', 'my_custom_login_logo');
+
+
 
 // Post Types Below
 
