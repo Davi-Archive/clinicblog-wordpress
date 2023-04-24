@@ -20,7 +20,7 @@ $home = get_page_by_title('home');
             <img src="<?php echo get_template_directory_uri() ?>/img/heading.png" alt="">
             <h4 class="about-home-title">SOBRE</h4>
           </div>
-          <h2>Sei a importância do sorriso e quero ver você com seu melhor sorriso.</h2>
+          <h2><?php the_field('sobre_titulo', $home) ?></h2>
           <p>
             <?php the_field('sobre_home', $home) ?>
           </p>
