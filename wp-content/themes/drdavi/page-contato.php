@@ -91,13 +91,12 @@ get_header();
     </div>
 </section>
 
+
+
 <section class="map">
-    1111111111
-    <?php include(TEMPLATEPATH . '/inc/map-location.php'); ?>
+   <img src="<?= get_template_directory_uri() ?>/img/mapa.webp" alt="Mapa do Grande ABCD" />
 </section>
+
 <hr class="horizontal">
-
-
-<?php ?>
 
 <?php get_footer(); ?>
