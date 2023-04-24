@@ -86,8 +86,8 @@
                        </li>
                    </ul>
                    <div class="copy_text">
-                       <span>Todos os direitos reservados <?php echo
-                                                            date('Y') ?> - por Davi</span>
+                       <span>Todos os direitos reservados &copy; <?php echo
+                                                                date('Y') ?></span>
                    </div>
                </div>
            </div>

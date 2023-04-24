@@ -17,7 +17,7 @@ get_header();
         <div class="about-text">
           <div class="text-img">
             <img src="<?php echo get_template_directory_uri() ?>/img/heading.png" alt="">
-            <h6>SOBRE</h6>
+            <h4 class="about-home-title">SOBRE</h4>
           </div>
           <h2>Sei a importância do sorriso e quero ver você com seu melhor sorriso.</h2>
           <p>
@@ -51,7 +51,7 @@ get_header();
     <div class="row pt-30">
       <div class="col-md-12">
         <div class="service-slider">
-          <div class="owl-carousel owl-theme owl-loaded owl-drag" id="demoslide4">
+          <div class="owl-carousel owl-theme owl-loaded owl-drag" id="demoslide4" aria-label="owl-carousel">
 
             <div class="owl-stage-outer">
               <div class="owl-stage" style="transform: translate3d(-1135px, 0px, 0px); transition: all 0.15s ease 0s; width: 3405px;">
@@ -132,16 +132,20 @@ get_header();
             <div class="comment-re post-com">
               <form id="my-form" action="https://formspree.io/f/mlezgrkw" method="POST" class="row">
                 <div class="form-group col-md-6">
-                  <input type="text" placeholder="Nome" name="Name" class="form-control form-com">
+                  <label for="name"></label>
+                  <input id="name" type="text" placeholder="Nome" name="Name" class="form-control form-com">
                 </div>
                 <div class="form-group col-md-6">
-                  <input type="email" placeholder="Email" name="Email" class="form-control form-com">
+                  <label for="email"></label>
+                  <input id="email" type="email" placeholder="Email" name="Email" class="form-control form-com">
                 </div>
                 <div class="form-group col-md-6">
-                  <input type="number" placeholder="Celular" name="Mobile" class="form-control form-com">
+                  <label for="number"></label>
+                  <input id="number" type="number" placeholder="Celular" name="Mobile" class="form-control form-com">
                 </div>
                 <div class="form-group col-md-6">
-                  <input type="text" placeholder="Assunto" name="Subject" class="form-control form-com">
+                  <label for="subject"></label>
+                  <input id="subject" type="text" placeholder="Assunto" name="Subject" class="form-control form-com">
                 </div>
                 <div class="view-all col-md-12">
                   <button class="animation-cer-btn" id="my-form-button">

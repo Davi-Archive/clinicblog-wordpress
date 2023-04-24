@@ -16,7 +16,7 @@ get_header();
             </div>
             <div class="col-sm-7">
                 <div class="who-are-text">
-                    <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'content here, content</p>
+                    <p><?php the_field('texto_sobre') ?></p>
                 </div>
             </div>
         </div>
@@ -28,21 +28,21 @@ get_header();
             </div>
             <div class="col-sm-6">
                 <div class="best-treatment">
-                    <h4>Dedicated Team</h4>
+                    <h4><?php the_field('subtitulo1') ?></h4>
                     <p>
-                        it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                        <?php the_field('texto_subtitulo1') ?>
                     </p>
                 </div>
                 <div class="best-treatment">
-                    <h4>Best Treatment</h4>
+                    <h4><?php the_field('subtitulo2') ?></h4>
                     <p>
-                        it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                        <?php the_field('texto_subtitulo2') ?>
                     </p>
                 </div>
                 <div class="best-treatment">
-                    <h4>24/7 Support</h4>
+                    <h4><?php the_field('subtitulo3') ?></h4>
                     <p>
-                        it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                        <?php the_field('texto_subtitulo3') ?>
                     </p>
                 </div>
             </div>
