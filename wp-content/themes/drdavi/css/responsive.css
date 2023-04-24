@@ -27,7 +27,7 @@
 
 @media(max-width:1440px) {
 	.why-chose-img {
-		background-image: url(../img/whay.png);
+		background-image: url(../img/whay.webp);
 		background-size: cover;
 		height: 100%
 	}
@@ -39,7 +39,7 @@
 
 @media(min-width:1024px) and (max-width:1200px) {
 	.why-chose-img {
-		background-image: url(../img/whay.png);
+		background-image: url(../img/whay.webp);
 		background-size: cover;
 		height: 100%
 	}
@@ -51,7 +51,7 @@
 
 @media(max-width:1024px) {
 	.why-chose-img {
-		background-image: url(../img/whay.png);
+		background-image: url(../img/whay.webp);
 		background-size: cover;
 		height: 100%
 	}
@@ -76,7 +76,7 @@
 
 @media(max-width:992px) {
 	.why-chose-img {
-		background-image: url(../img/whay.png);
+		background-image: url(../img/whay.webp);
 		background-size: cover;
 		height: 100%;
 		display: none;
@@ -89,7 +89,7 @@
 
 @media only screen and (min-width:768px) and (max-width:991px) {
 	.why-chose-img {
-		background-image: url(../img/whay.png);
+		background-image: url(../img/whay.webp);
 		background-size: cover;
 		height: 100%
 	}
@@ -372,7 +372,7 @@
 
 @media only screen and (min-width:375px) and (max-width:767px) {
 	.why-chose-img {
-		background-image: url(../img/whay.png);
+		background-image: url(../img/whay.webp);
 		background-size: cover;
 		height: 100%;
 		display: none;
@@ -630,7 +630,7 @@
 
 @media only screen and (min-width:320px) and (max-width:374px) {
 	.why-chose-img {
-		background-image: url(../img/whay.png);
+		background-image: url(../img/whay.webp);
 		background-size: cover;
 		height: 100%
 	}

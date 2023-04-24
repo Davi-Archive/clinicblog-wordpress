@@ -1,7 +1,7 @@
 <?php $contact = get_page_by_title('contato') ?>
 
 <!DOCTYPE html>
-<html lang="ptBR">
+<html lang="pt-BR">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">

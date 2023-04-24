@@ -26,7 +26,7 @@
         </div>
         <div class="why-chose-container-img col-sm-6 us-img">
             <div class="why-chose-img">
-                <img src="<?php echo get_template_directory_uri() ?>/img/whay.png" alt="">
+                <img src="<?php echo get_template_directory_uri() ?>/img/whay.webp" alt="">
             </div>
         </div>
     </div>

@@ -23,7 +23,7 @@ get_header();
         <div class="row pt-50">
             <div class="col-sm-6">
                 <div class="dedicated-img">
-                    <img src="<?php echo get_template_directory_uri() ?>/img/about-last.png" alt="">
+                    <img src="<?php echo get_template_directory_uri() ?>/img/about-last.webp" alt="">
                 </div>
             </div>
             <div class="col-sm-6">

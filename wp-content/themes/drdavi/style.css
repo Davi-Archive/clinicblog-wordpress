@@ -1,6 +1,6 @@
 /*
 Theme Name: DrDavi
-Theme URI: http://localhost
+Theme URI: http://drdavi.com.br/
 Author: Davi Alves
 Author URI: https://github.com/d1av/
 Description: Tema criado para Davi.
@@ -50,7 +50,7 @@ h4 {
 }
 
 .slider-img-banner1{
-    background-image: url('./img/banner.png');
+    background-image: url('./img/banner.webp');
     width: 1343px;
 }
 
@@ -59,7 +59,7 @@ h4 {
 }
 
 .slider-img-banner2{
-    background-image: url('./img/banner.png');
+    background-image: url('./img/banner.webp');
     width: 1343px;
 }
 
@@ -1135,7 +1135,7 @@ i.fa.fa-arrow-right {
 }
 
 .home-service {
-	background-image: url(./img/home-bg.png);
+	background-image: url(./img/home-bg.webp);
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative
@@ -1318,7 +1318,7 @@ i.fa.fa-arrow-right {
 }
 
 .book-your-visit {
-	background-image: url(./img/booking-bg.png);
+	background-image: url(./img/booking-bg.webp);
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
@@ -1432,7 +1432,7 @@ span.testimonial-img {
 }
 
 .home-about-us.pt-90.pb-90 {
-	background-image: url(./img/sub-banner.png);
+	background-image: url(./img/sub-banner.webp);
 	position: relative;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -1540,7 +1540,7 @@ section.about-dental-lab {
 }
 
 .our-mission {
-	background-image: url(./img/gr-bg.png);
+	background-image: url(./img/gr-bg.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #fff;
@@ -1657,7 +1657,7 @@ div {
 }
 
 .services-testimonials.pt-60.pb-60 {
-	background-image: url(./img/gr-bg.png);
+	background-image: url(./img/gr-bg.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #fff
@@ -2154,7 +2154,7 @@ ul.list-department {
 
 .recent-service.pt-40 {
 	text-align: center;
-	background-image: url(./img/video-play.png);
+	background-image: url(./img/video-play.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -2198,7 +2198,7 @@ span.phone-service {
 }
 
 section.service-dental-details.pt-60 {
-	background-image: url(./img/gr-bg.png)
+	background-image: url(./img/gr-bg.webp)
 }
 
 .service-dental-details.pt-60 h2 {
