@@ -63,7 +63,7 @@ get_header();
                         <span class="seccess" style="display: none;">Email Enviado. Obrigado, respondo assim que possível.</span>
                         <span class="error" style="display: none;">Email não foi enviado.</span>
                     </div>
-                    <form id="my-form" action="https://products.webrockmedia.com/dentallab-html/contact.php" method="post" class="row">
+                    <form id="my-form" action="<?php echo get_template_directory_uri() ?>/enviar.php" method="post" class="row">
                         <div class="form-group col-md-6">
                             <input type="text" placeholder="Coloque seu nome" name="first_name" required="" class="form-control form-com">
                         </div>
@@ -94,7 +94,9 @@ get_header();
 
 
 <section class="map">
-   <img src="<?= get_template_directory_uri() ?>/img/mapa.webp" alt="Mapa do Grande ABCD" />
+    <a href="https://www.google.com/maps/@-23.6880024,-46.5749769,11z" target="_blank">
+        <img src=" <?= get_template_directory_uri() ?>/img/mapa.webp" alt="Mapa do Grande ABCD" />
+    </a>
 </section>
 
 <hr class="horizontal">

@@ -65,8 +65,8 @@ $contact = get_page_by_title('contato');
 </section>
 <section class="service-dental-details pt-60">
     <div class="container">
-        <h5>Services</h5>
-        <h2>More Dental Lab Services</h2>
+        <h5>Serviços</h5>
+        <h2>Mais Serviços Odontológicos</h2>
         <div class="row pt-30">
             <div class="col-md-12 pb-30">
                 <div class="service-detail-slider">
@@ -74,190 +74,42 @@ $contact = get_page_by_title('contato');
 
                         <div class="owl-stage-outer">
                             <div class="owl-stage" style="transform: translate3d(-1513px, 0px, 0px); transition: all 0.25s ease 0s; width: 4540px;">
-                                <div class="owl-item cloned" style="width: 353.333px; margin-right: 25px;">
-                                    <div class="item">
-                                        <div class="service-general">
-                                            <div class="service-img">
-                                                <img src="<?= get_template_directory_uri() ?>/img/sl-4.png" alt="">
-                                            </div>
-                                            <div class="dental-text">
-                                                <h4> Alignment</h4>
-                                                <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
-                                                </p>
-                                                <a class="service-btn tratamento-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><img class="image-read-more tratamento-btn" width="32" height="32" src="<?= get_template_directory_uri() ?>/img/icons/plus.svg" alt="Acessar" /></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned" style="width: 353.333px; margin-right: 25px;">
-                                    <div class="item">
-                                        <div class="service-general">
-                                            <div class="service-img">
-                                                <img src="<?= get_template_directory_uri() ?>/img/sl-5.png" alt="">
-                                            </div>
-                                            <div class="dental-text">
-                                                <h4> Teeth Braces</h4>
-                                                <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
-                                                </p>
-                                                <a class="service-btn tratamento-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><img class="image-read-more tratamento-btn" width="32" height="32" src="<?= get_template_directory_uri() ?>/img/icons/plus.svg" alt="Acessar" /></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned" style="width: 353.333px; margin-right: 25px;">
-                                    <div class="item">
-                                        <div class="service-general">
-                                            <div class="service-img">
-                                                <img src="<?= get_template_directory_uri() ?>/img/sl-6.png" alt="">
-                                            </div>
-                                            <div class="dental-text">
-                                                <h4> Teeth Protection</h4>
-                                                <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
-                                                </p>
-                                                <a class="service-btn tratamento-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><img class="image-read-more tratamento-btn" width="32" height="32" src="<?= get_template_directory_uri() ?>/img/icons/plus.svg" alt="Acessar" /></a>
+
+                                <?php
+                                $args = array(
+                                    'post_type' => 'servicos',
+                                    'order' => 'ASC'
+                                );
+                                $the_query = new WP_Query($args);
+
+                                ?>
+
+                                <?php
+                                if ($the_query->have_posts()) : while ($the_query->have_posts()) : $the_query->the_post(); ?>
+
+
+                                        <div class="owl-item cloned" style="width: 353.333px; margin-right: 25px;">
+                                            <div class="item">
+                                                <div class="service-general">
+                                                    <div class="service-img">
+                                                        <img src="<?php the_field('imagem_especialidade') ?>" alt="<?php echo 'Imagem sobre' ?> <?php the_title() ?> ">
+                                                    </div>
+                                                    <div class="dental-text">
+                                                        <h4><?php the_title() ?></h4>
+                                                        <p>
+                                                            <?php the_excerpt() ?>
+                                                        </p>
+                                                        <a class="service-btn tratamento-btn" href="<?= the_permalink() ?>"><b>Leia Mais</b><img class="image-read-more tratamento-btn" width="32" height="32" src="<?= get_template_directory_uri() ?>/img/icons/plus.svg" alt="Acessar" /></a>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item" style="width: 353.333px; margin-right: 25px;">
-                                    <div class="item">
-                                        <div class="service-general">
-                                            <div class="service-img">
-                                                <img src="<?= get_template_directory_uri() ?>/img/sl-1.png" alt="">
-                                            </div>
-                                            <div class="dental-text">
-                                                <h4> Genera Dentistry</h4>
-                                                <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
-                                                </p>
-                                                <a class="service-btn tratamento-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><img class="image-read-more tratamento-btn" width="32" height="32" src="<?= get_template_directory_uri() ?>/img/icons/plus.svg" alt="Acessar" /></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item active" style="width: 353.333px; margin-right: 25px;">
-                                    <div class="item">
-                                        <div class="service-general">
-                                            <div class="service-img">
-                                                <img src="<?= get_template_directory_uri() ?>/img/sl-2.png" alt="">
-                                            </div>
-                                            <div class="dental-text">
-                                                <h4> Implants</h4>
-                                                <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
-                                                </p>
-                                                <a class="service-btn tratamento-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><img class="image-read-more tratamento-btn" width="32" height="32" src="<?= get_template_directory_uri() ?>/img/icons/plus.svg" alt="Acessar" /></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item active" style="width: 353.333px; margin-right: 25px;">
-                                    <div class="item">
-                                        <div class="service-general">
-                                            <div class="service-img">
-                                                <img src="<?= get_template_directory_uri() ?>/img/sl-3.png" alt="">
-                                            </div>
-                                            <div class="dental-text">
-                                                <h4> Dental Surgery</h4>
-                                                <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
-                                                </p>
-                                                <a class="service-btn tratamento-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><img class="image-read-more tratamento-btn" width="32" height="32" src="<?= get_template_directory_uri() ?>/img/icons/plus.svg" alt="Acessar" /></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item active" style="width: 353.333px; margin-right: 25px;">
-                                    <div class="item">
-                                        <div class="service-general">
-                                            <div class="service-img">
-                                                <img src="<?= get_template_directory_uri() ?>/img/sl-4.png" alt="">
-                                            </div>
-                                            <div class="dental-text">
-                                                <h4> Alignment</h4>
-                                                <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
-                                                </p>
-                                                <a class="service-btn tratamento-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><img class="image-read-more tratamento-btn" width="32" height="32" src="<?= get_template_directory_uri() ?>/img/icons/plus.svg" alt="Acessar" /></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item" style="width: 353.333px; margin-right: 25px;">
-                                    <div class="item">
-                                        <div class="service-general">
-                                            <div class="service-img">
-                                                <img src="<?= get_template_directory_uri() ?>/img/sl-5.png" alt="">
-                                            </div>
-                                            <div class="dental-text">
-                                                <h4> Teeth Braces</h4>
-                                                <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
-                                                </p>
-                                                <a class="service-btn tratamento-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><img class="image-read-more tratamento-btn" width="32" height="32" src="<?= get_template_directory_uri() ?>/img/icons/plus.svg" alt="Acessar" /></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item" style="width: 353.333px; margin-right: 25px;">
-                                    <div class="item">
-                                        <div class="service-general">
-                                            <div class="service-img">
-                                                <img src="<?= get_template_directory_uri() ?>/img/sl-6.png" alt="">
-                                            </div>
-                                            <div class="dental-text">
-                                                <h4> Teeth Protection</h4>
-                                                <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
-                                                </p>
-                                                <a class="service-btn tratamento-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><img class="image-read-more tratamento-btn" width="32" height="32" src="<?= get_template_directory_uri() ?>/img/icons/plus.svg" alt="Acessar" /></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned" style="width: 353.333px; margin-right: 25px;">
-                                    <div class="item">
-                                        <div class="service-general">
-                                            <div class="service-img">
-                                                <img src="<?= get_template_directory_uri() ?>/img/sl-1.png" alt="">
-                                            </div>
-                                            <div class="dental-text">
-                                                <h4> Genera Dentistry</h4>
-                                                <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
-                                                </p>
-                                                <a class="service-btn tratamento-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><img class="image-read-more tratamento-btn" width="32" height="32" src="<?= get_template_directory_uri() ?>/img/icons/plus.svg" alt="Acessar" /></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned" style="width: 353.333px; margin-right: 25px;">
-                                    <div class="item">
-                                        <div class="service-general">
-                                            <div class="service-img">
-                                                <img src="<?= get_template_directory_uri() ?>/img/sl-2.png" alt="">
-                                            </div>
-                                            <div class="dental-text">
-                                                <h4> Implants</h4>
-                                                <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
-                                                </p>
-                                                <a class="service-btn tratamento-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><img class="image-read-more tratamento-btn" width="32" height="32" src="<?= get_template_directory_uri() ?>/img/icons/plus.svg" alt="Acessar" /></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned" style="width: 353.333px; margin-right: 25px;">
-                                    <div class="item">
-                                        <div class="service-general">
-                                            <div class="service-img">
-                                                <img src="<?= get_template_directory_uri() ?>/img/sl-3.png" alt="">
-                                            </div>
-                                            <div class="dental-text">
-                                                <h4> Dental Surgery</h4>
-                                                <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
-                                                </p>
-                                                <a class="service-btn tratamento-btn" href="https://products.webrockmedia.com/dentallab-html/service-details.html"><b>Read More </b><img class="image-read-more tratamento-btn" width="32" height="32" src="<?= get_template_directory_uri() ?>/img/icons/plus.svg" alt="Acessar" /></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+
+                                <?php endwhile;
+                                else : endif; ?>
+
                             </div>
                         </div>
-
-                        <div class="owl-dots disabled"></div>
                     </div>
                 </div>
             </div>

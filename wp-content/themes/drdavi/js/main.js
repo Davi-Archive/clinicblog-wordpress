@@ -137,7 +137,7 @@
     });
     $('#demoslide3').owlCarousel({
         loop: true,
-        autoplay: true,
+        autoplay: false,
         autoPlaySpeed: 5000,
         autoplayTimeout: 5000,
         autoplayHoverPause: false,
@@ -165,10 +165,10 @@
     })
     $('#demoslide4').owlCarousel({
         loop: true,
-        autoplay: true,
+        autoplay: false,
         autoPlaySpeed: 5000,
         autoplayTimeout: 5000,
-        autoplayHoverPause: false,
+        autoplayHoverPause: true,
         margin: 25,
         responsiveClass: true,
         navText: ["<div class='button-left-arrow'></div>", "<div class='button-right-arrow'></div>"],
@@ -183,7 +183,7 @@
             },
             1000: {
                 items: 4,
-                autoplay: true,
+                autoplay: false,
                 autoplayHoverPause: false,
                 nav: true,
                 dots: false,
@@ -193,10 +193,10 @@
     })
     $('#demoslide2').owlCarousel({
         loop: true,
-        autoplay: true,
+        autoplay: false,
         autoPlaySpeed: 5000,
         autoplayTimeout: 5000,
-        autoplayHoverPause: false,
+        autoplayHoverPause: true,
         margin: 25,
         responsiveClass: true,
         navText: ["<div class='button-left-arrow'></div>", "<div class='button-right-arrow'></div>"],
@@ -207,11 +207,11 @@
             },
             600: {
                 items: 2,
-                nav: false
+                nav: true
             },
             1000: {
                 items: 3,
-                autoplay: true,
+                autoplay: false,
                 autoplayHoverPause: false,
                 nav: true,
                 dots: false,
@@ -221,10 +221,38 @@
     })
     $('#demoslide1').owlCarousel({
         loop: true,
-        autoplay: true,
+        autoplay: false,
         autoPlaySpeed: 5000,
         autoplayTimeout: 5000,
-        autoplayHoverPause: false,
+        autoplayHoverPause: true,
+        margin: 25,
+        responsiveClass: true,
+        navText: ["<div class='button-left-arrow'></div>", "<div class='button-right-arrow'></div>"],
+        responsive: {
+            0: {
+                items: 1,
+                nav: true
+            },
+            600: {
+                items: 2,
+                nav: true
+            },
+            1000: {
+                items: 3,
+                autoplay: false,
+                autoplayHoverPause: true,
+                nav: true,
+                dots: false,
+                loop: true
+            }
+        }
+    })
+    $('.owl-demo5').owlCarousel({
+        loop: true,
+        autoplay: false,
+        autoPlaySpeed: 5000,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true,
         margin: 25,
         responsiveClass: true,
         navText: ["<div class='button-left-arrow'></div>", "<div class='button-right-arrow'></div>"],
@@ -239,34 +267,6 @@
             },
             1000: {
                 items: 3,
-                autoplay: true,
-                autoplayHoverPause: false,
-                nav: true,
-                dots: false,
-                loop: true
-            }
-        }
-    })
-    $('.owl-demo5').owlCarousel({
-        loop: true,
-        autoplay: true,
-        autoPlaySpeed: 5000,
-        autoplayTimeout: 5000,
-        autoplayHoverPause: false,
-        margin: 25,
-        responsiveClass: true,
-        navText: ["<div class='button-left-arrow'></div>", "<div class='button-right-arrow'></div>"],
-        responsive: {
-            0: {
-                items: 1,
-                nav: true
-            },
-            600: {
-                items: 2,
-                nav: false
-            },
-            1000: {
-                items: 4,
                 autoplay: true,
                 autoplayHoverPause: false,
                 nav: true,
@@ -277,7 +277,7 @@
     })
     $('.owl-demo2').owlCarousel({
         loop: true,
-        autoplay: true,
+        autoplay: false,
         autoPlaySpeed: 5000,
         autoplayTimeout: 5000,
         autoplayHoverPause: false,
@@ -290,11 +290,11 @@
                 nav: true
             },
             600: {
-                items: 1,
+                items: 2,
                 nav: false
             },
             1000: {
-                items: 2,
+                items: 3,
                 autoplay: true,
                 autoplayHoverPause: false,
                 nav: true,

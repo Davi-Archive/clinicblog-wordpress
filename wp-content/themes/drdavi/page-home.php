@@ -24,7 +24,7 @@ $home = get_page_by_title('home');
           <p>
             <?php the_field('sobre_home', $home) ?>
           </p>
-          <a class="started" href="/contato/">Enviar uma mensagem</a>
+          <a class="started" href="#contato-home">Enviar uma mensagem</a>
         </div>
       </div>
     </div>
@@ -115,8 +115,8 @@ $home = get_page_by_title('home');
 
 
 <section class="book-your-visit">
-  <div class="container">
-    <div class="row">
+  <div class="container" id="contato-home">
+    <div class=" row">
       <div class="col-sm-5">
         <div class="emergency">
           <h2>Deseja contatar o doutor?<br>
@@ -128,7 +128,7 @@ $home = get_page_by_title('home');
         <div class="book-your">
           <div class="post-comment mart-0-cont">
             <div class="comment-re post-com">
-              <form id="my-form" action="https://formspree.io/f/mlezgrkw" method="POST" class="row">
+              <form id="my-form" action="<?php echo get_template_directory_uri() ?>/enviar.php" method="POST" class="row">
                 <div class="form-group col-md-6">
                   <label for="name"></label>
                   <input id="name" type="text" placeholder="Nome" name="Name" class="form-control form-com">
