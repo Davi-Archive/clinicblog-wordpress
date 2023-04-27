@@ -171,6 +171,8 @@ $contato = get_page_by_title('contato');
   </a>
 </section>
 
+<hr class="horizontal">
+
 <?php ?>
 
 <?php get_footer(); ?>

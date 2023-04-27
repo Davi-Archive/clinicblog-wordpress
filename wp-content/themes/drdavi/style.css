@@ -40,7 +40,7 @@ h4 {
 	display:flex;
 	position: absolute;
 	right: 10px;
-	bottom: 10px
+	bottom: 10px;
 }
 
 .card-blog-post{
@@ -1292,7 +1292,7 @@ i.fa.fa-arrow-right {
 
 .choose-us {
 	position: relative;
-	margin-bottom: 50px;
+	margin-bottom: 0px;
 	padding: 0 16px
 }
 
