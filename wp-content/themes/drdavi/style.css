@@ -36,6 +36,13 @@ h4 {
 	font-family: jost, sans-serif
 }
 
+.posts-container{
+	display: flex;
+	flex-wrap: wrap;
+	align-items:center;
+	justify-content: center;
+}
+
 .readme-blog-link{
 	display:flex;
 	position: absolute;
@@ -44,8 +51,8 @@ h4 {
 }
 
 .card-blog-post{
-	width: 14rem;
-	margin: 0 10px;
+	width: 100rem;
+	margin: 10px;
 }
 
 #map {

@@ -115,55 +115,6 @@ $contato = get_page_by_title('contato');
 <?php include(TEMPLATEPATH . '/inc/home/choose-us.php') ?>
 
 
-<!-- <section class="book-your-visit">
-  <div class="container" id="contato-home">
-    <div class=" row">
-      <div class="col-sm-5">
-        <div class="emergency">
-          <h2>Deseja contatar o doutor?<br>
-            Use o formulário</h2>
-          <p>Tentarei contatar o mais rápido possível, também recomendo o whats app.</p>
-        </div>
-      </div>
-      <div class="col-sm-7">
-        <div class="book-your">
-          <div class="post-comment mart-0-cont">
-            <div class="comment-re post-com">
-              <form id="my-form" action="<?php echo get_template_directory_uri() ?>/enviar.php" method="POST" class="row">
-                <div class="form-group col-md-6">
-                  <label for="name"></label>
-                  <input id="nome" type="text" placeholder="Nome" name="nome" class="form-control form-com">
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="email"></label>
-                  <input id="email" type="email" placeholder="Email" name="email" class="form-control form-com">
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="number"></label>
-                  <input id="number" type="number" placeholder="Celular" name="telefone" class="form-control form-com">
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="subject"></label>
-                  <input id="subject" type="text" placeholder="Assunto" name="mensagem" class="form-control form-com">
-                </div>
-                <label for="nao-aparece1"></label>
-                <input id="nao-aparece1" type="text" placeholder="nao-aparece1" name="dontchange" class="hide-element form-control form-com" value="http://">
-                <label for=" nao-aparece2"></label>
-                <input id="nao-aparece2" type="text" placeholder="Assunto" name="leaveblank" class="hide-element form-control form-com">
-                <div class="view-all col-md-12">
-                  <button class="animation-cer-btn" id="my-form-button">
-                    Enviar uma mensagem
-                  </button>
-                  <p id="my-form-status"></p>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
 
 <section class="wp-button-home">
   <a href="<?php the_field('url_contato', $contato) ?>" target="_blank">

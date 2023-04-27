@@ -203,7 +203,7 @@
 		content: "";
 		position: absolute;
 		width: 36%;
-		background-image: url(../img/test.png);
+		background-image: url(..webpg/test.png);
 		top: 3px;
 		bottom: 0;
 		background-repeat: no-repeat;
@@ -598,7 +598,7 @@
 		content: "";
 		position: absolute;
 		width: 37%;
-		background-image: url(../img/test.png);
+		background-image: url(../img/test.webp);
 		top: 0;
 		bottom: 0;
 		background-repeat: no-repeat;
@@ -816,7 +816,7 @@
 		content: "";
 		position: absolute;
 		width: 36%;
-		background-image: url(../img/test.png);
+		background-image: url(..webpg/test.png);
 		top: 3px;
 		bottom: 0;
 		background-repeat: no-repeat;

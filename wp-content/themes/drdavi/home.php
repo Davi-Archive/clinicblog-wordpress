@@ -12,14 +12,15 @@ $contact = get_page_by_title('contato');
             <div class="col-sm-8">
                 <div class="department-content">
                     <h4>Posts</h4>
-                    <div style="display: flex;">
+                    <div class="posts-container" >
                         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+
                                 <article class="grid-16 blog-post">
                                     <h2><a href="<?php the_permalink(); ?>"></a></h2>
 
                                 </article>
 
-                                <div class="card card-blog-post" >
+                                <div class="card card-blog-post">
                                     <div class="card-body" style="position: relative;">
                                         <h5 class="card-title"><?php the_title() ?></h5>
                                         <h6 class="card-subtitle text-muted"><?php the_field('subtitulo') ?></h6>
@@ -42,14 +43,13 @@ $contact = get_page_by_title('contato');
 
                     </div>
                     <div class="general-img">
-                        <img src="<?php echo get_template_directory_uri() ?>/img/d-det.png" alt="">
+                        <img src="<?php echo get_template_directory_uri() ?>/img/d-det.webp" alt="">
                     </div>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="recent-service pt-40">
                     <div class="service-dental">
-                        <img src="<?= get_template_directory_uri() ?>/img/call.png" alt="">
                     </div>
                     <h2>Tem alguma questão?
                         <span>converse com o doutor agora por whats app!</span>
