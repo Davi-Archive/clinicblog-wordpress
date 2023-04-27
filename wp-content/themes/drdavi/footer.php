@@ -3,7 +3,7 @@
    <footer class="footer-section pt-90 pb-60">
        <div class="container">
            <div class="row">
-               <div class="col-sm-4">
+               <div class="col-sm-6">
                    <div class="footer">
                        <div class="footer-heading">
                            <h4>Sobre </h4>
@@ -13,10 +13,12 @@
                        <div class="footer-contact">
                            <h4>Contato</h4>
                            <div class="footer-us">
-                               <div class="footer-img">
-                                   <img src="<?php echo get_template_directory_uri() ?>/img/phone-call.png" alt="">
-                               </div>
-                               <span><?php the_field('telefone', $contact) ?></span>
+                               <a href="<?php the_field('url_contato',$contact) ?>" class="float" target="_blank">
+                                   <div class="footer-img">
+                                       <img src="<?php echo get_template_directory_uri() ?>/img/phone-call.png" alt="">
+                                   </div>
+                                   <span><?php the_field('telefone', $contact) ?></span>
+                               </a>
                            </div>
                            <div class="footer-us">
                                <div class="footer-img">
@@ -27,7 +29,7 @@
                        </div>
                    </div>
                </div>
-               <div class="col-sm-2">
+               <div class="col-lg-2">
                    <div class="footer">
                        <h4>Informação</h4>
                        <?php
@@ -40,7 +42,7 @@
                         ?>
                    </div>
                </div>
-               <div class="col-sm-2">
+               <div class="col-lg-2">
                    <div class="footer">
                        <h4>Suporte</h4>
                        <?php
@@ -53,13 +55,13 @@
                         ?>
                    </div>
                </div>
-               <div class="col-sm-4">
+               <div class="col-sm-1">
                    <div class="footer1">
-                       <h5>Receba as melhores dicas <br>para deixar o seu sorriso<br> perfeito </h5>
+                       <!-- <h5>Receba as melhores dicas <br>para deixar o seu sorriso<br> perfeito </h5>
                        <div class="footer-input">
                            <input type="email" id="myEmail">
                            <a href="https://products.webrockmedia.com/dentallab-html/index.html#">Inscrever</a>
-                       </div>
+                       </div> -->
                    </div>
                </div>
                <hr>

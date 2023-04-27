@@ -1,9 +1,8 @@
 <?php
-// Template Name: Article
 get_header();
-
 $contact = get_page_by_title('contato');
 ?>
+
 
 <?php include(TEMPLATEPATH . '/inc/banner-top.php') ?>
 
@@ -12,9 +11,36 @@ $contact = get_page_by_title('contato');
         <div class="row">
             <div class="col-sm-8">
                 <div class="department-content">
-                    <h4>Artigos</h4>
-                    <h2><?php the_title(); ?></h2>
-                    <?php the_content(); ?>
+                    <h4>Posts</h4>
+                    <div style="display: flex;">
+                        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+                                <article class="grid-16 blog-post">
+                                    <h2><a href="<?php the_permalink(); ?>"></a></h2>
+
+                                </article>
+
+                                <div class="card card-blog-post" >
+                                    <div class="card-body" style="position: relative;">
+                                        <h5 class="card-title"><?php the_title() ?></h5>
+                                        <h6 class="card-subtitle text-muted"><?php the_field('subtitulo') ?></h6>
+                                        <p class="card-text">
+                                            <?php the_excerpt(); ?>
+                                        </p>
+
+                                        <a class="readme-blog-link" href="<?php the_permalink(); ?>" class="card-link">Leia Mais</a>
+                                    </div>
+                                </div>
+
+                            <?php endwhile; ?>
+
+                            <div class="nav-blog grid-16">
+                                <?php next_posts_link('← Posts Antigos'); ?>
+                                <?php previous_posts_link('Posts Novos →'); ?>
+                            </div>
+
+                        <?php else : endif; ?>
+
+                    </div>
                     <div class="general-img">
                         <img src="<?php echo get_template_directory_uri() ?>/img/d-det.png" alt="">
                     </div>
@@ -32,35 +58,7 @@ $contact = get_page_by_title('contato');
                         <span class="phone-service"><?php the_field('telefone', $contact) ?></span>
                     </a>
                 </div>
-                <!-- <div class="book-appointment">
-                    <div class="light-sky">
-                        <div class="cont-add black-t mb-30">
-                            <h3>Envie uma mensagem</h3>
-                        </div>
-                        <div class="form-send">
-                            <form id="my-form" action="https://formspree.io/f/xayvnadd" method="POST">
-                                <div class="form-group">
-                                    <input type="text" placeholder="Nome" name="name" class="form-control form-com">
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" placeholder="Email" name="email" class="form-control form-com">
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" placeholder="Assunto" name="title" class="form-control form-com">
-                                </div>
-                                <div class="form-group">
-                                    <textarea placeholder="Mensagem" name="message" class="form-control form-com-message "></textarea>
-                                </div>
-                                <div class="view-one">
-                                    <button class="btn upcase" id="my-form-button">
-                                        Enviar Mensagem
-                                    </button>
-                                    <p id="my-form-status"></p>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div> -->
+
             </div>
         </div>
     </div>

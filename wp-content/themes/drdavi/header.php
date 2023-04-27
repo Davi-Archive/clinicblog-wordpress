@@ -5,7 +5,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title><?php bloginfo('name'); ?><?php wp_title('-') ?> <?php the_field('title_seo') ?></title>
+    <title><?php bloginfo('name'); ?> - <?php wp_title('-') ?> <?php the_field('title_seo') ?></title>
     <meta name="description" content="<?php bloginfo('name'); ?> <?php wp_title('-') ?> <?php the_field('description_seo') ?>">
 
     <meta property="og:type" content="website" />
@@ -48,10 +48,12 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="head-left">
-                        <div class="head-img">
-                            <img src="<?php echo get_template_directory_uri() ?>/img/c-2.png" alt="">
-                        </div>
-                        <span><?php the_field('telefone', $contact) ?></span>
+                        <a href="<?php the_field('url_contato',$contact) ?>" class="float" target="_blank">
+                            <div class="head-img">
+                                <img src="<?php echo get_template_directory_uri() ?>/img/c-2.png" alt="">
+                            </div>
+                            <span><?php the_field('telefone', $contact) ?></span>
+                        </a>
                     </div>
                 </div>
             </div>

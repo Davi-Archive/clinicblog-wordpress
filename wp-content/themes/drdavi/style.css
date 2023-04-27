@@ -36,6 +36,18 @@ h4 {
 	font-family: jost, sans-serif
 }
 
+.readme-blog-link{
+	display:flex;
+	position: absolute;
+	right: 10px;
+	bottom: 10px
+}
+
+.card-blog-post{
+	width: 14rem;
+	margin: 0 10px;
+}
+
 #map {
   height: 100%;
 }
@@ -1280,7 +1292,7 @@ i.fa.fa-arrow-right {
 
 .choose-us {
 	position: relative;
-	margin-bottom: 90px;
+	margin-bottom: 50px;
 	padding: 0 16px
 }
 

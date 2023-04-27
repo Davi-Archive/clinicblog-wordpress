@@ -2,6 +2,7 @@
 // Template Name: Home
 get_header();
 $home = get_page_by_title('home');
+$contato = get_page_by_title('contato');
 ?>
 
 <?php include(TEMPLATEPATH . '/inc/home/carousel-banner.php') ?>
@@ -24,7 +25,7 @@ $home = get_page_by_title('home');
           <p>
             <?php the_field('sobre_home', $home) ?>
           </p>
-          <a class="started" href="#contato-home">Enviar uma mensagem</a>
+          <a class="started" href="<?php the_field('url_contato', $contato) ?>" target="_blank">Enviar uma mensagem</a>
         </div>
       </div>
     </div>
@@ -114,7 +115,7 @@ $home = get_page_by_title('home');
 <?php include(TEMPLATEPATH . '/inc/home/choose-us.php') ?>
 
 
-<section class="book-your-visit">
+<!-- <section class="book-your-visit">
   <div class="container" id="contato-home">
     <div class=" row">
       <div class="col-sm-5">
@@ -162,11 +163,11 @@ $home = get_page_by_title('home');
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
-<section class="wp-button-home" >
-  <a href="https://wa.me/5511987221913?text='Ol%C3%A1,%20gostaria%20de%20conversar%20com%20o%20Doutor%20Davi,%20venho%20do%20site.'" class="float" target="_blank">
-    <img height="35" width="45" src="<?php echo get_template_directory_uri() ?>/img/c-2.png" alt="Contate Pelo Whats app" />
+<section class="wp-button-home">
+  <a href="<?php the_field('url_contato', $contato) ?>" target="_blank">
+    <img height="43" width="45" src="<?php echo get_template_directory_uri() ?>/img/c-2.png" alt="Contate Pelo Whats app" />
   </a>
 </section>
 

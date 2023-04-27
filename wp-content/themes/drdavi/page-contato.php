@@ -40,8 +40,10 @@ get_header();
                         </div>
                         <div class="contact-text">
                             <h5>WHATS APP</h5>
-                            <p><?php the_field('telefone') ?>
-                            </p>
+                            <a href="<?php the_field('url_contato') ?>" class="float" target="_blank">
+                                <p><?php the_field('telefone') ?>
+                                </p>
+                            </a>
                         </div>
                     </div>
                     <div class="contact-content">
@@ -58,33 +60,16 @@ get_header();
                 </div>
             </div>
             <div class="col-sm-7">
-                <div class="contact-form">
+                <div class="contact-form" style="overflow: hidden;">
                     <div id="resultmm">
                         <span class="seccess" style="display: none;">Email Enviado. Obrigado, respondo assim que possível.</span>
                         <span class="error" style="display: none;">Email não foi enviado.</span>
                     </div>
-                    <form id="my-form" action="<?php echo get_template_directory_uri() ?>/enviar.php" method="post" class="row">
-                        <div class="form-group col-md-6">
-                            <input type="text" placeholder="Coloque seu nome" name="first_name" required="" class="form-control form-com">
-                        </div>
-                        <div class="form-group col-md-6">
-                            <input type="email" placeholder="Coloque seu Email" name="email" required="" class="form-control form-com">
-                        </div>
-                        <div class="form-group col-md-6">
-                            <input type="number" maxlength="10" placeholder="Coloque seu celular" name="phone" required="" class="form-control form-com">
-                        </div>
-                        <div class="form-group col-md-6">
-                            <input type="text" placeholder="Titulo da mensagem" name="subject" required="" class="form-control form-com">
-                        </div>
-                        <div class="form-group col-md-12">
-                            <textarea placeholder="Mensagem..." required="" name="message" class="form-control form-com-message"></textarea>
-                        </div>
-                        <div class="view-one col-md-12">
-                            <button type="submit" name="submit" class="animation-cer-btn" id="my-form-button">
-                                Enviar Mensagem <span class="line2"></span>
-                            </button>
-                        </div>
-                    </form>
+                    <div class="map">
+                        <a href="https://www.google.com/maps/@-23.6880024,-46.5749769,11z" target="_blank">
+                            <img src=" <?= get_template_directory_uri() ?>/img/mapa.webp" alt="Mapa do Grande ABCD" />
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -93,11 +78,7 @@ get_header();
 
 
 
-<section class="map">
-    <a href="https://www.google.com/maps/@-23.6880024,-46.5749769,11z" target="_blank">
-        <img src=" <?= get_template_directory_uri() ?>/img/mapa.webp" alt="Mapa do Grande ABCD" />
-    </a>
-</section>
+
 
 <hr class="horizontal">
 
