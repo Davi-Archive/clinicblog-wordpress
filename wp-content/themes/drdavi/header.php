@@ -5,13 +5,19 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title><?php bloginfo('name'); ?><?php wp_title('-') ?> <?php the_field('title_seo') ?></title>
+    <meta name="description" content="<?php bloginfo('name'); ?> <?php wp_title('-') ?> <?php the_field('description_seo') ?>">
 
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title><?php the_title() ?></title>
-    <meta name="description" content="">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="<?php bloginfo('name'); ?><?php wp_title('-') ?> <?php the_field('title_seo') ?>" />
+    <meta property="og:description" content="<?php bloginfo('name'); ?><?php wp_title('-') ?> <?php the_field('description_seo') ?>" />
+    <meta property="og:url" content="<?php bloginfo('url') ?>" />
+    <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/img/banner.webp" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/x-icon" href="<?php echo get_template_directory_uri() ?>/img/favicon.png">
+
+    <link rel="shortcut icon" href="<?= get_template_directory_uri(); ?>/img/favicon.png">
+
 
     <!-- Inicio Wordpress Head-->
     <?php wp_head(); ?>

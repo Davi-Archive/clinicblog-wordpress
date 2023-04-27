@@ -87,7 +87,7 @@
                    </ul>
                    <div class="copy_text">
                        <span>Todos os direitos reservados &copy; <?php echo
-                                                                date('Y') ?></span>
+                                                                    date('Y') ?></span>
                    </div>
                </div>
            </div>

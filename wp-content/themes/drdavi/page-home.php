@@ -131,20 +131,24 @@ $home = get_page_by_title('home');
               <form id="my-form" action="<?php echo get_template_directory_uri() ?>/enviar.php" method="POST" class="row">
                 <div class="form-group col-md-6">
                   <label for="name"></label>
-                  <input id="name" type="text" placeholder="Nome" name="Name" class="form-control form-com">
+                  <input id="nome" type="text" placeholder="Nome" name="nome" class="form-control form-com">
                 </div>
                 <div class="form-group col-md-6">
                   <label for="email"></label>
-                  <input id="email" type="email" placeholder="Email" name="Email" class="form-control form-com">
+                  <input id="email" type="email" placeholder="Email" name="email" class="form-control form-com">
                 </div>
                 <div class="form-group col-md-6">
                   <label for="number"></label>
-                  <input id="number" type="number" placeholder="Celular" name="Mobile" class="form-control form-com">
+                  <input id="number" type="number" placeholder="Celular" name="telefone" class="form-control form-com">
                 </div>
                 <div class="form-group col-md-6">
                   <label for="subject"></label>
-                  <input id="subject" type="text" placeholder="Assunto" name="Subject" class="form-control form-com">
+                  <input id="subject" type="text" placeholder="Assunto" name="mensagem" class="form-control form-com">
                 </div>
+                <label for="nao-aparece1"></label>
+                <input id="nao-aparece1" type="text" placeholder="nao-aparece1" name="dontchange" class="hide-element form-control form-com" value="http://">
+                <label for=" nao-aparece2"></label>
+                <input id="nao-aparece2" type="text" placeholder="Assunto" name="leaveblank" class="hide-element form-control form-com">
                 <div class="view-all col-md-12">
                   <button class="animation-cer-btn" id="my-form-button">
                     Enviar uma mensagem
@@ -158,6 +162,12 @@ $home = get_page_by_title('home');
       </div>
     </div>
   </div>
+</section>
+
+<section class="wp-button-home" >
+  <a href="https://wa.me/5511987221913?text='Ol%C3%A1,%20gostaria%20de%20conversar%20com%20o%20Doutor%20Davi,%20venho%20do%20site.'" class="float" target="_blank">
+    <img height="35" width="45" src="<?php echo get_template_directory_uri() ?>/img/c-2.png" alt="Contate Pelo Whats app" />
+  </a>
 </section>
 
 <?php ?>
