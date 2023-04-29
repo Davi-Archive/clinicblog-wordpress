@@ -1,5 +1,3 @@
-Sure, here's a sample README.md file that you can use as a guide:
-
 # Clinic WordPress Theme
 
 The Clinic WordPress theme is a beautiful and modern theme designed specifically for medical clinics, hospitals, and other healthcare-related websites. With its clean design and easy-to-use features, it's the perfect choice for any healthcare organization looking to build a professional online presence.
