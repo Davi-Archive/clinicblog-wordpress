@@ -5,8 +5,6 @@ get_header();
 $contact = get_page_by_title('contato');
 ?>
 
-<?php include(TEMPLATEPATH . '/inc/banner-top.php') ?>
-
 <section class="department-dentistry pt-60 pb-60">
     <div class="container">
         <div class="row">

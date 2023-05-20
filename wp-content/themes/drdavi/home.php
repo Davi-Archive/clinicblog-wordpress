@@ -3,16 +3,13 @@ get_header();
 $contact = get_page_by_title('contato');
 ?>
 
-
-<?php include(TEMPLATEPATH . '/inc/banner-top.php') ?>
-
 <section class="department-dentistry pt-60 pb-60">
     <div class="container">
         <div class="row">
             <div class="col-sm-8">
                 <div class="department-content">
                     <h4>Posts</h4>
-                    <div class="posts-container" >
+                    <div class="posts-container">
                         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
                                 <article class="grid-16 blog-post">
@@ -22,13 +19,13 @@ $contact = get_page_by_title('contato');
 
                                 <div class="card card-blog-post">
                                     <div class="card-body" style="position: relative;">
-                                        <h5 class="card-title"><?php the_title() ?></h5>
-                                        <h6 class="card-subtitle text-muted"><?php the_field('subtitulo') ?></h6>
-                                        <p class="card-text">
-                                            <?php the_excerpt(); ?>
-                                        </p>
+                                        <a href="<?php the_permalink(); ?>"> <h5 class="card-title"><?php the_title() ?></h5></a>
+                                            <h6 class="card-subtitle text-muted"><?php the_field('subtitulo') ?></h6>
+                                            <p class="card-text">
+                                                <?php the_excerpt(); ?>
+                                            </p>
 
-                                        <a class="readme-blog-link" href="<?php the_permalink(); ?>" class="card-link">Leia Mais</a>
+                                            <a class="readme-blog-link" href="<?php the_permalink(); ?>" class="card-link">Leia Mais</a>
                                     </div>
                                 </div>
 

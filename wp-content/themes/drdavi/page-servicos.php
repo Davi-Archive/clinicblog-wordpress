@@ -4,8 +4,6 @@ $page_servicos = get_page_by_title('servicos');
 get_header();
 ?>
 
-<?php include(TEMPLATEPATH . '/inc/banner-top.php') ?>
-
 <section class="lab-services pt-60 pb-60">
     <div class="container">
         <div class="row">
@@ -61,7 +59,7 @@ get_header();
 <?php
 if (get_field('ativar_depoimentos', $page_servicos)) {
     include(TEMPLATEPATH . '/inc/servicos/depoimentos.php');
-} 
+}
 ?>
 
 <hr class="horizontal">

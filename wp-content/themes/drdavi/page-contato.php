@@ -3,8 +3,6 @@
 get_header();
 ?>
 
-<?php include(TEMPLATEPATH . '/inc/banner-top.php') ?>
-
 <section class="dental-contact pt-60 pb-60">
     <div class="container">
         <div class="row">
