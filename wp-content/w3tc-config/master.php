@@ -1,5 +1,5 @@
 <?php exit; ?>{
-    "version": "2.3.1",
+    "version": "2.3.2",
     "cluster.messagebus.debug": false,
     "cluster.messagebus.enabled": false,
     "cluster.messagebus.sns.region": "",
@@ -948,5 +948,9 @@
         "auto": "enabled",
         "visibility": "never"
     },
-    "imageservice.configuration_overloaded": true
+    "imageservice.configuration_overloaded": true,
+    "pgcache.bad_behavior_path": "",
+    "newrelic": {
+        "monitoring_type": "apm"
+    }
 }

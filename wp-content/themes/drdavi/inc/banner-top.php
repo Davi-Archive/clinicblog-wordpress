@@ -5,7 +5,7 @@
                 <div class="about-background">
                     <h2><?php
                         // Correct the no accent because db value
-                        if (strval(get_the_title()) === 'Servicos') {
+                        if (strval(get_the_title()) === 'Servicos' && !get_page_by_title('blog')) {
                             echo 'Serviços';
                         }
                         if (get_page_by_title('blog')) {
